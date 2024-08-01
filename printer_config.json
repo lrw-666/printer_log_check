@@ -1,0 +1,79 @@
+{
+    "printer_name": "Lp2122",
+    "version": "1.0",
+    "paper_info": {
+        "key_node_number" : 4,
+        "1" : "Sheet Execute Start",
+        "2" : "id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0",
+        "3" : "dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1",
+        "4" : "silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0"
+    },
+    "single_logs" :{
+        "key_node_number" : 23,
+        "1" : "Print Cnt[1], Sid[0]",
+        "2" : "Feed Start, Sid[0] Fid[0]",
+        "3" : "Subscan[5] Factory[0] User[0]",
+        "4" : "Trans[15], Subscan[5], Sid[0]",
+        "5" : "Unmask SN Fro On",
+        "6" : "Int SN Fro On",
+        "7" : "Feed Space Offset Value[560] Sid[0]",
+        "8" : "Real[258] Logic[317]",
+        "9" : "OffsetT[100] SpaceT[2472] Sid[0]",
+        "10" : "Tray1 Space Value[560], Sid[0]",
+        "11" : "Manual Space Value[430], Sid[0]",
+        "12" : "Tray1 Space Time[2372]",
+        "13" : "Manual Space Time[2594]",
+        "14" : "Transfer Enable Sid[0]",
+        "15" : "Fuser Entry Reach Sid[0]",
+        "16" : "Unmask SN Fro Off",
+        "17" : "Feed Space Release, Kind[2]",
+        "18" : "Feed Space Release, Kind[0]",
+        "19" : "SN Fro Off",
+        "20" : "+++Size[2976],Serr[2670],Lerr[3270],Sid[0]+++",
+        "21" : "Fuser Pass, Sid[0]",
+        "22" : "Main Exit Finish Sid[0]",
+        "23" : "##Paper Complete!! Sid[0]"
+    },
+    "jam_logs" :{
+        "key_node_number" : 1,
+        "1" : "Jam Act Sid[2] Code[49]",
+        "2" : "Cancel Start!! Sid[0]Wait[0]Rear[0]"
+    },
+    "speed_info": {
+        "key_node_number" : 7,
+        "1" : "FeedStart_To_FrontSensorOn",
+        "2" : "FrontSensorOn_To_TransferEnable",
+        "3" : "FrontSensorOn_To_FrontSensorOff",    
+        "4" : "FrontSensorON_To_FuserEntryReach",
+        "5" : "FrontSensorOff_To_FuserPass",
+        "6" : "FrontSensorOff_To_MainExitFinish",
+        "7" : "FrontSensorOff_To_NextFeedStart"
+    },
+    "nomral_speed": {
+        "FeedStart_To_FrontSensorOn": 318,
+        "FrontSensorOn_To_TransferEnable": 16,
+        "FrontSensorOn_To_FrontSensorOff": 2440,
+        "FrontSensorON_To_FuserEntryReach": 738,
+        "FrontSensorOff_To_FuserPass": 1200,
+        "FrontSensorOff_To_MainExitFinish": 1008,
+        "FrontSensorOff_To_NextFeedStart": 1000
+    },
+    "middle_speed": {
+        "FeedStart_To_FrontSensorOn": 318,
+        "FrontSensorOn_To_TransferEnable": 16,
+        "FrontSensorOn_To_FrontSensorOff": 2440,
+        "FrontSensorON_To_FuserEntryReach": 738,
+        "FrontSensorOff_To_FuserPass": 1200,
+        "FrontSensorOff_To_MainExitFinish": 1008,
+        "FrontSensorOff_To_NextFeedStart": 1000
+    },
+    "slow_speed": {
+        "FeedStart_To_FrontSensorOn": 474,
+        "FrontSensorOn_To_TransferEnable": 25,
+        "FrontSensorOn_To_FrontSensorOff": 3841,
+        "FrontSensorON_To_FuserEntryReach": 1166,
+        "FrontSensorOff_To_FuserPass": 1166,
+        "FrontSensorOff_To_MainExitFinish": 1616,
+        "FrontSensorOff_To_NextFeedStart": 8089
+    }
+}

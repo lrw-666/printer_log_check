@@ -1,0 +1,2276 @@
+MB0 int
+0:++ Engine Log Start ++
+0:EngVer: T.0.0.1
+0:STS:Stop Enable Change[1]
+0:STS:Main->Init,Sub->None
+10:STS:Main Tray Remain:0
+10:CMD:Tray[0], Paper Exist[0]
+108:STS:First Nvram Download Finished
+108:STS:All Nvram Download Finished
+108:STS:---Printer Information---
+108:STS:Area CHN
+108:STS:Machine Type 22PPM 
+108:STS:Temperature 0
+108:STS:Humidity 0
+108:CMD:Engine MP Access Ready!
+110:IMG:Med MP DL Finish[1]
+110:STS:Upper Cover:Close
+110:STS:Bottle(K) Set
+110:STS:Iuchip Bottle(K) Close
+110:STS:PCDU(K) Set
+110:STS:Iuchip PCDU(K) Close
+110:STS:Fuser Set
+110:STS:Iuchip Bottle(K) Close
+110:STS:Iuchip PCDU(K) Close
+110:STS:Iuchip Not Exist[1]
+112:STS:Toner Life Remain:50
+112:STS:Iuchip Not Exist[0]
+112:STS:Opc Life Remain:50
+112:STS:Power On(From Normal)
+112:STS:Main->Warmup,Sub->None
+112:DEV:GPIO ON
+112:STS:Warmup Start Device Prn24v On
+112:STS:PRN-24V Not Ok!
+112:STS:Fuser Cannot Start
+112:STS:Judge Plotter Status Ok!!
+114:CMD:Warm Up Status Set
+114:CMD:Unit[0], Uninstall Status[0] Detail[0]
+114:CMD:Unit[2], Uninstall Status[0] Detail[0]
+114:CMD:Parts[0], Life Status[0], Life Remain[50]
+114:CMD:Parts[2], Life Status[0], Life Remain[50]
+114:CMD:SSC Info Ready
+114:CMD:Engine Init OK!
+114:STS:Main Tray Remain:100
+114:LSU:Door Close
+114:CMD:Tray[0], Paper Exist[1]
+214:DEV:24VS ON
+218:DEV:THV_EN ON
+270:DEV:24VS Steady
+270:STS:Fuser Start
+270:STS:Prn24v Stable
+270:FUS:Mode Change!! C_Temp = 31 )
+270:FUS:Initial / Initial -> Warmup / NonRotation
+270:DEV:Relay On
+270:FUS:Warmup Tar_Temp = 168
+270:FUS:Warmup Heater On Req Exist
+310:FUS:Heater No Ctrl => Ctrl !!
+380:FUS:Cold Start Heater Ctrl Finished
+1278:CMD:Notify Status Warmup End!
+9810:FUS:Warmup Motor Rot Start Note For Fan
+9810:DEV:Main Fan On
+9810:FUS:Mode Change!! C_Temp = 120 )
+9810:FUS:Warmup / NonRotation -> Warmup / Rotation
+9810:FUS:Warmup Tar_Temp = 168
+9810:STS:Imaging Wakeup Start
+9810:CMD:Unit[0], Mismatch Status[0] Detail[0]
+9810:CMD:Unit[2], Mismatch Status[0] Detail[0]
+9810:IMG:Med Wakeup Start
+9810:IMG:Channel Wakeup Pre Start
+9812:IMG:Proc Wake Start
+9812:IMG:Comp Main Motor[1],Speed:[0]
+9812:DEV:Step Motor Hold On
+9812:IMG:Comp Trans Bias Target:[-1000]
+9812:IMG:Comp Trans Bias Enable On
+9812:IMG:Comp Charge Bias Target:[-1050]
+9812:DEV:Charge Voltage Value 1050
+9812:DEV:Charge Duty = 5712
+9812:IMG:Comp Lsu Type Identify Start
+9812:IMG:Comp Polygon On[0]
+9812:LSU:Polygon On
+9812:FUS:Image Recovery Start Notification
+9814:LSU:Polygon Clk On Sd:0,type:1
+9824:LSU:Polygon Enable On
+9836:DEV:StepMotor Clock On Speed Nomal
+10392:DEV:MainMotor lock
+10392:IMG:Comp Main Motor Lock
+10392:PAP:Main Mt Drive[1], Speed[0]
+10414:IMG:Comp Develop Dc Bias Target:[-300]
+10414:DEV:Develop Abs Voltage Value 300
+10414:DEV:Develop Duty = 5709
+11414:IMG:Comp Trans Bias Enable OFF
+11414:DEV:Trans Abs Voltage Value 500
+11414:DEV:Trans Duty = 2525
+11414:IMG:Comp Trans Bias Target:[500]
+11964:LSU:Polygon Lock
+11964:IMG:Tsk_ctrl Polygon Lock
+11964:IMG:Tsk_ctrl Lsu Idetify Polygon Lock
+11964:LSU:LD Power Set 190
+11964:LSU:LD Expect Vref Set [528]mV
+11964:LSU:Vref Index[9]
+11964:LSU:Vref Output [543]mV
+11964:LSU:Ld On
+11974:LSU:Ld On Seq 1
+11984:LSU:Ld On Seq 2
+12014:LSU:Ld Sync Ok
+12014:IMG:Tsk_ctrl Ld Sync
+13014:LSU:Lsu HSYNC Count:[2390]
+13014:LSU:Lsu Type:Independent
+13014:CMD:Eng Lsu Type(2)
+13014:IMG:Comp Lsu Idetify Finish
+13014:IMG:Channel Wakeup Preprocess End
+13014:IMG:Channel Wakeup Post Start
+13014:IMG:Post Wake Start
+13014:IMG:Proc Wake Post Start
+13014:IMG:Comp Trans Bias Target:[-1000]
+13014:DEV:THV Voltage Off
+13014:IMG:Comp Trans Bias Enable On
+13014:LSU:Ld Off
+13014:IMG:Comp Polygon Off
+13014:LSU:Polygon Off
+13024:LSU:Polygon Enable Off
+13034:LSU:Polygon Clk Off
+13064:LSU:Polygon Lock Off
+14116:IMG:Post Wakeup Trans Clean Finsh
+17710:FUS:Warmup Finish Note For Fan
+17710:DEV:Main Fan Off
+17710:FUS:Mode Change!! C_Temp = 165 )
+17710:FUS:Warmup / Rotation -> Standby / Standby
+17710:FUS:Standby Tar_Temp = 150
+17710:IMG:Med Fuser Wakeup Finish
+17710:IMG:Channel Info Fuser Wakeup Finish
+17710:DEV:StepMotor Clock Off
+17710:IMG:Comp Charge Bias Off
+17710:DEV:Charge Voltage Off
+17710:IMG:Comp Develop Dc Bias Off
+17710:DEV:Develop Voltage Off
+17710:IMG:Comp Trans Bias Off
+17710:IMG:Comp Trans Bias Enable OFF
+17710:IMG:Channel Rsp Wakeup End
+17712:PAP:Main Mt Drive[0], Speed[3]
+17712:FUS:Image Recovery Finish Note From Status
+17712:STS:Main->Ready,Sub->None
+17712:STS:Safe Protect Timer Start = 28800000
+17712:FUS:Plotter Status To Standby
+17714:DEV:Step Motor Hold Off
+17720:STS:Under 60s: Drive Counter[997][0][7880]
+21158:Engine Debug Print Test Pattern is PATTERN_HORI_STRIP
+51736:PMNG:Dummy Start Exec Mode(3)
+51736:FUS:Received Print Prepare Request
+51736:STS:Standby To Other Main Status 8H Timer Stop[0]
+51736:STS:Stop Enable Change[0]
+51736:STS:Main->Run,Sub->Dummy  
+51736:IMG:Med Polygon On
+51736:IMG:Comp Polygon On[0]
+51736:LSU:Polygon On
+51738:PMNG:Sheet Execute Start(0)
+51738:PMNG:id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+51738:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+51738:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+51738:PMNG:Request Image Start(0)
+51738:PMNG:Request Paper Start(0)
+51738:PMNG:Print Image Prepare OK By Engine Itself(0)
+51738:FUS:Mode Change!! C_Temp = 151 )
+51738:FUS:Standby / Standby -> Print / Print
+51738:FUS:Print Start Note For Fan
+51738:DEV:Main Fan On
+51738:FUS:Sheet(0) Added To Fuser Sheet Queue
+51738:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+51738:FUS:Sheet(0) Print Target Temp = 180 
+51738:IMG:Med Print Start[0]
+51740:IMG:Channel Print Start
+51740:IMG:Proc Print Start
+51740:IMG:Comp Polygon Lock Wait
+51740:IMG:Med Image Print Data Ready[0]
+51740:PAP:Print Cnt[1], Sid[0]
+51740:PAP:Bending[0] Sid[0]
+51740:PAP:Env Kind[0], Sid[0]
+51740:PAP:##Paper Start!! Sid[0]
+51740:PAP:*Dc Data Ready, Sid[0] *
+51742:IMG:Tsk_img Write Param Set ID:0
+51742:LSU:Imaging Param Start
+51742:LSU:Imaging Param End
+51742:IMG:Tsk_img Print Status:[1][0][1][1]
+51742:IMG:Tsk_img Print Status:[1][0][1][1]
+51742:PAP:Tsk Start! Sid[0]
+51742:PAP:Fuser Temp Check[0] Sid[0]
+51744:LSU:Polygon Clk On Sd:0,type:2
+51754:LSU:Polygon Enable On
+54210:FUS:Feed Start Temp Reach!!C_Temp = 160 Tar_Temp = 180
+54210:PMNG:Fuser Motor Rotate(0)
+54210:IMG:Med Fuser Ok
+54260:FUS:Register Start Temp Reach
+54260:PMNG:Fuser Print Enable(0)
+54260:PAP:*Fuser Temp Ready, Sid[0] *
+54260:PAP:Dc Data Check[1] Sid[0]
+54260:PAP:Feed Space Check[1] Sid[0]
+54414:LSU:Polygon Lock
+54414:IMG:Tsk_ctrl Polygon Lock
+54414:LSU:LD Power Set 190
+54414:LSU:LD Expect Vref Set [528]mV
+54414:LSU:Vref Index[9]
+54414:LSU:Vref Output [543]mV
+54414:LSU:Ld On
+54414:IMG:Comp Main Motor[1],Speed:[0]
+54414:DEV:Step Motor Hold On
+54414:IMG:Comp Trans Bias Enable OFF
+54414:DEV:Trans Abs Voltage Value 500
+54414:DEV:Trans Duty = 2525
+54414:IMG:Comp Trans Bias Target:[500]
+54420:IMG:Comp Charge Bias Target:[-1150]
+54420:DEV:Charge Voltage Value 1150
+54420:DEV:Charge Duty = 6211
+54424:LSU:Ld On Seq 1
+54434:LSU:Ld On Seq 2
+54438:DEV:StepMotor Clock On Speed Nomal
+54464:LSU:Ld Sync Ok
+54464:IMG:Tsk_ctrl Ld Sync
+54992:DEV:MainMotor lock
+54992:IMG:Comp Main Motor Lock
+54992:PAP:Main Mt Drive[1], Speed[0]
+54992:DEV:Standard Feed Solenoid On
+54992:PAP:SOL Tray1 [1] Cnt[1]
+54992:PAP:Feed Start, Sid[0] Fid[0]
+54992:PAP:Subscan[5] Factory[0] User[0]
+54992:PAP:Trans[15], Subscan[5], Sid[0]
+54994:PMNG:Feed Paper(0)
+54994:IMG:Med Feed Ok[0]
+54994:PMNG:Sheet Execute Start(1)
+54994:PMNG:id:1 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+54994:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+54994:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+54996:PMNG:Request Image Start(1)
+54996:PMNG:Request Paper Start(1)
+54996:PMNG:Print Image Prepare OK By Engine Itself(1)
+54996:FUS:Sheet(1) Added To Fuser Sheet Queue
+54996:IMG:Med Print Start[1]
+54996:IMG:Med Image Print Data Ready[1]
+54996:PAP:Print Cnt[2], Sid[1]
+54996:PAP:Bending[0] Sid[1]
+54996:PAP:Env Kind[0], Sid[1]
+54998:PAP:##Paper Start!! Sid[1]
+54998:PAP:*Dc Data Ready, Sid[1] *
+54998:PAP:Unmask SN Fro On
+54998:PMNG:Fuser Motor Rotate(1)
+54998:PMNG:Fuser Print Enable(1)
+54998:IMG:Tsk_img Print Status:[0][0][1][1]
+54998:PAP:Tsk Start! Sid[1]
+54998:PAP:Fuser Temp Check[0] Sid[1]
+54998:IMG:Med Fuser Ok
+55000:PAP:*Fuser Temp Ready, Sid[1] *
+55000:PAP:Dc Data Check[1] Sid[1]
+55000:PAP:Feed Space Check[0] Sid[1]
+55018:IMG:Comp Develop Dc Bias Target:[-300]
+55018:DEV:Develop Abs Voltage Value 300
+55018:DEV:Develop Duty = 5709
+55018:IMG:Channel Print Boot End
+55018:IMG:Med Gap OK
+55018:IMG:Tsk_img Print Status:[1][1][1][1]
+55018:PAP:*Image Regist Ready, Sid[0] *
+55150:DEV:Standard Feed Solenoid Off
+55150:PAP:SOL Tray1 [0] Cnt[0]
+55248:PAP:Int SN Fro On
+55250:PAP:Feed Retry Stop Tid[0]
+55250:IMG:Med Front Sensor On[0]
+55250:FUS:Paper Roll Check Wait Timer(500 ms) Start
+55250:FUS:Sheet(0) Front Sensor On!! C_Temp = 169 Tar_Temp = 180
+55250:FUS:Regist Restart Note From Paper
+55250:PAP:Space Set Start,Sid[0]
+55250:PAP:Feed Space Offset Value[560] Sid[0]
+55250:PAP:Real[258] Logic[317]
+55250:PAP:OffsetT[100] SpaceT[2472] Sid[0]
+55250:PAP:Tray1 Space Value[560], Sid[0]
+55250:PAP:Manual Space Value[430], Sid[0]
+55250:PAP:Tray1 Space Time[2372]
+55250:PAP:Manual Space Time[2594]
+55252:PAP:Duplex Space Time[2165]
+55264:PAP:Transfer Enable Sid[0]
+55264:IMG:Tsk_img Paper Trans Able
+55264:LSU:Imaging Write Test Pattern Print Start
+55264:IMG:Med Vsync On
+55264:IMG:Med Trans Bias Idle Read Start
+55264:IMG:Comp Trans Bias CL Read Start
+55266:IMG:Med Gap OK
+55266:IMG:Tsk_img Print Status:[0][1][1][1]
+55270:IMG:Comp Bias[1] Read Value:351 351 362 
+55270:IMG:Comp Bias[1] Read Avg:351
+55270:IMG:Comp Trans Bias CL Read Finish
+55272:PAP:Sn[2] Value[1]
+55272:PAP:SN Fro On
+55276:LSU:Test Pattern Write Start
+55286:LSU:Test Pattern Write Stop
+55326:LSU:Test Pattern Write Start
+55336:LSU:Test Pattern Write Stop
+55376:LSU:Test Pattern Write Start
+55386:LSU:Test Pattern Write Stop
+55426:LSU:Test Pattern Write Start
+55436:LSU:Test Pattern Write Stop
+55476:LSU:Test Pattern Write Start
+55486:LSU:Test Pattern Write Stop
+55518:IMG:Med Trans Bias Head Read Start
+55518:IMG:Comp Trans Bias DET Read Start
+55526:LSU:Test Pattern Write Start
+55536:LSU:Test Pattern Write Stop
+55542:IMG:Comp Bias[2] Read Value:294 275 260 250 277 266 303 303 315 364 
+55542:IMG:Comp Bias[2] Read Value:376 395 
+55542:IMG:Comp Bias[2] Read Avg:303
+55542:IMG:Comp Trans Bias DET Read Finish
+55542:IMG:Med Exchange Imaging Bias
+55542:IMG:Comp Trans Bias Step[1]:[833]
+55542:DEV:Trans Abs Voltage Value 833
+55542:DEV:Trans Duty = 3093
+55542:IMG:Comp Trans Bias Target:[1500]
+55546:IMG:Comp Trans Bias Step[2]:[1166]
+55546:DEV:Trans Abs Voltage Value 1166
+55546:DEV:Trans Duty = 3661
+55550:IMG:Comp Trans Bias Step[0]:[1500]
+55550:DEV:Trans Abs Voltage Value 1500
+55550:DEV:Trans Duty = 4230
+55576:LSU:Test Pattern Write Start
+55586:LSU:Test Pattern Write Stop
+55626:LSU:Test Pattern Write Start
+55636:LSU:Test Pattern Write Stop
+55676:LSU:Test Pattern Write Start
+55686:LSU:Test Pattern Write Stop
+55726:LSU:Test Pattern Write Start
+55736:LSU:Test Pattern Write Stop
+55776:LSU:Test Pattern Write Start
+55786:LSU:Test Pattern Write Stop
+55812:FUS:Print Roll Paper Check By Now Temp Start!! Tar_Temp =180 Now_Temp = 172
+55826:LSU:Test Pattern Write Start
+55836:LSU:Test Pattern Write Stop
+55876:LSU:Test Pattern Write Start
+55886:LSU:Test Pattern Write Stop
+55926:LSU:Test Pattern Write Start
+55936:LSU:Test Pattern Write Stop
+55976:LSU:Test Pattern Write Start
+55986:LSU:Test Pattern Write Stop
+55990:PAP:Fuser Entry Reach Sid[0]
+55990:FUS:Sheet(0) Fuser In!! C_Temp = 172 Tar_Temp = 180
+56026:LSU:Test Pattern Write Start
+56036:LSU:Test Pattern Write Stop
+56076:LSU:Test Pattern Write Start
+56086:LSU:Test Pattern Write Stop
+56126:LSU:Test Pattern Write Start
+56136:LSU:Test Pattern Write Stop
+56176:LSU:Test Pattern Write Start
+56186:LSU:Test Pattern Write Stop
+56226:LSU:Test Pattern Write Start
+56236:LSU:Test Pattern Write Stop
+56276:LSU:Test Pattern Write Start
+56286:LSU:Test Pattern Write Stop
+56326:LSU:Test Pattern Write Start
+56336:LSU:Test Pattern Write Stop
+56376:LSU:Test Pattern Write Start
+56386:LSU:Test Pattern Write Stop
+56426:LSU:Test Pattern Write Start
+56436:LSU:Test Pattern Write Stop
+56476:LSU:Test Pattern Write Start
+56486:LSU:Test Pattern Write Stop
+56526:LSU:Test Pattern Write Start
+56536:LSU:Test Pattern Write Stop
+56576:LSU:Test Pattern Write Start
+56586:LSU:Test Pattern Write Stop
+56626:LSU:Test Pattern Write Start
+56636:LSU:Test Pattern Write Stop
+56676:LSU:Test Pattern Write Start
+56686:LSU:Test Pattern Write Stop
+56726:LSU:Test Pattern Write Start
+56736:LSU:Test Pattern Write Stop
+56776:LSU:Test Pattern Write Start
+56786:LSU:Test Pattern Write Stop
+56826:LSU:Test Pattern Write Start
+56836:LSU:Test Pattern Write Stop
+56876:LSU:Test Pattern Write Start
+56886:LSU:Test Pattern Write Stop
+56926:LSU:Test Pattern Write Start
+56936:LSU:Test Pattern Write Stop
+56976:LSU:Test Pattern Write Start
+56986:LSU:Test Pattern Write Stop
+57026:LSU:Test Pattern Write Start
+57036:LSU:Test Pattern Write Stop
+57076:LSU:Test Pattern Write Start
+57086:LSU:Test Pattern Write Stop
+57126:LSU:Test Pattern Write Start
+57136:LSU:Test Pattern Write Stop
+57176:LSU:Test Pattern Write Start
+57186:LSU:Test Pattern Write Stop
+57226:LSU:Test Pattern Write Start
+57236:LSU:Test Pattern Write Stop
+57276:LSU:Test Pattern Write Start
+57286:LSU:Test Pattern Write Stop
+57326:LSU:Test Pattern Write Start
+57330:PAP:Unmask SN Fro Off
+57336:LSU:Test Pattern Write Stop
+57376:LSU:Test Pattern Write Start
+57386:LSU:Test Pattern Write Stop
+57418:PAP:Feed Space Release, Kind[2]
+57426:LSU:Test Pattern Write Start
+57436:LSU:Test Pattern Write Stop
+57476:LSU:Test Pattern Write Start
+57486:LSU:Test Pattern Write Stop
+57526:LSU:Test Pattern Write Start
+57536:LSU:Test Pattern Write Stop
+57576:LSU:Test Pattern Write Start
+57586:LSU:Test Pattern Write Stop
+57616:LSU:Imaging Write Stop
+57616:IMG:Med Vsync Off
+57616:IMG:Tsk_img Write Param Set ID:1
+57616:LSU:Imaging Param Start
+57616:LSU:Imaging Param End
+57616:IMG:Tsk_img Print Status:[1][1][1][1]
+57616:PAP:*Image Regist Ready, Sid[1] *
+57626:PAP:Feed Space Release, Kind[0]
+57626:DEV:Standard Feed Solenoid On
+57626:PAP:SOL Tray1 [1] Cnt[1]
+57626:PAP:Feed Start, Sid[1] Fid[0]
+57626:PAP:Subscan[5] Factory[0] User[0]
+57626:PAP:Trans[15], Subscan[5], Sid[1]
+57628:PMNG:Feed Paper(1)
+57628:IMG:Med Feed Ok[1]
+57628:PMNG:Sheet Execute Start(2)
+57628:PMNG:id:2 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+57628:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+57628:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+57628:PMNG:Request Image Start(2)
+57628:PMNG:Request Paper Start(2)
+57628:PMNG:Print Image Prepare OK By Engine Itself(2)
+57630:FUS:Sheet(2) Added To Fuser Sheet Queue
+57630:IMG:Med Print Start[2]
+57630:IMG:Med Image Print Data Ready[2]
+57630:PAP:Print Cnt[3], Sid[2]
+57630:PAP:Bending[0] Sid[2]
+57630:PAP:Env Kind[0], Sid[2]
+57630:PAP:##Paper Start!! Sid[2]
+57630:PAP:*Dc Data Ready, Sid[2] *
+57630:PAP:Unmask SN Fro On
+57632:PMNG:Fuser Motor Rotate(2)
+57632:PMNG:Fuser Print Enable(2)
+57632:IMG:Tsk_img Print Status:[0][0][1][1]
+57632:PAP:Tsk Start! Sid[2]
+57632:PAP:Fuser Temp Check[0] Sid[2]
+57632:IMG:Med Fuser Ok
+57632:PAP:*Fuser Temp Ready, Sid[2] *
+57632:PAP:Dc Data Check[1] Sid[2]
+57634:PAP:Feed Space Check[0] Sid[2]
+57682:PAP:Sn[2] Value[0]
+57682:PAP:SN Fro Off
+57682:PAP:+++Size[2976],Serr[2670],Lerr[3270],Sid[0]+++
+57682:IMG:Med Front Sensor Off[0]
+57720:IMG:Med Paper LD Pass
+57780:DEV:Standard Feed Solenoid Off
+57780:PAP:SOL Tray1 [0] Cnt[0]
+57942:IMG:Med Exchange Imaging Bias(Tail)
+57942:DEV:Trans Abs Voltage Value 500
+57942:DEV:Trans Duty = 2525
+57942:IMG:Comp Trans Bias Target:[500]
+57942:IMG:Med Finish Check[0]
+57942:IMG:Med Imaging Print Finish
+57942:PMNG:Image Finish(0)
+57970:IMG:Med Paper Trans Pass
+57992:PAP:Int SN Fro On
+57994:PAP:Feed Retry Stop Tid[0]
+57994:IMG:Med Front Sensor On[1]
+57994:FUS:Sheet(1) Front Sensor On!! C_Temp = 181 Tar_Temp = 180
+57994:FUS:Regist Restart Note From Paper
+57994:PAP:Space Set Start,Sid[1]
+57994:PAP:Feed Space Offset Value[560] Sid[1]
+57994:PAP:Real[370] Logic[317]
+57994:PAP:OffsetT[53] SpaceT[2472] Sid[1]
+57994:PAP:Tray1 Space Value[560], Sid[1]
+57994:PAP:Manual Space Value[430], Sid[1]
+57994:PAP:Tray1 Space Time[2419]
+57994:PAP:Manual Space Time[2594]
+57994:PAP:Duplex Space Time[2165]
+58008:PAP:Transfer Enable Sid[1]
+58008:IMG:Tsk_img Paper Trans Able
+58008:LSU:Imaging Write Test Pattern Print Start
+58008:IMG:Med Vsync On
+58008:IMG:Med Trans Bias Idle Read Start
+58008:IMG:Comp Trans Bias CL Read Start
+58010:IMG:Med Gap OK
+58010:IMG:Tsk_img Print Status:[0][1][1][1]
+58014:IMG:Comp Bias[1] Read Value:339 339 350 
+58014:IMG:Comp Bias[1] Read Avg:339
+58014:IMG:Comp Trans Bias CL Read Finish
+58022:PAP:Sn[2] Value[1]
+58022:PAP:SN Fro On
+58026:LSU:Test Pattern Write Start
+58036:LSU:Test Pattern Write Stop
+58076:LSU:Test Pattern Write Start
+58086:LSU:Test Pattern Write Stop
+58126:LSU:Test Pattern Write Start
+58136:LSU:Test Pattern Write Stop
+58176:LSU:Test Pattern Write Start
+58186:LSU:Test Pattern Write Stop
+58226:LSU:Test Pattern Write Start
+58236:LSU:Test Pattern Write Stop
+58262:IMG:Med Trans Bias Head Read Start
+58262:IMG:Comp Trans Bias DET Read Start
+58276:LSU:Test Pattern Write Start
+58286:IMG:Comp Bias[2] Read Value:320 309 299 295 273 255 234 252 268 289 
+58286:IMG:Comp Bias[2] Read Value:315 290 
+58286:IMG:Comp Bias[2] Read Avg:284
+58286:IMG:Comp Trans Bias DET Read Finish
+58286:IMG:Med Exchange Imaging Bias
+58286:LSU:Test Pattern Write Stop
+58286:IMG:Comp Trans Bias Step[1]:[833]
+58286:DEV:Trans Abs Voltage Value 833
+58286:DEV:Trans Duty = 3093
+58286:IMG:Comp Trans Bias Target:[1500]
+58290:IMG:Comp Trans Bias Step[2]:[1166]
+58290:DEV:Trans Abs Voltage Value 1166
+58290:DEV:Trans Duty = 3661
+58294:IMG:Comp Trans Bias Step[0]:[1500]
+58294:DEV:Trans Abs Voltage Value 1500
+58294:DEV:Trans Duty = 4230
+58326:LSU:Test Pattern Write Start
+58336:LSU:Test Pattern Write Stop
+58376:LSU:Test Pattern Write Start
+58386:LSU:Test Pattern Write Stop
+58410:PAP:Fuser Pass, Sid[0]
+58410:CMD:Manual Print Unavailable Not Used Currently!
+58410:FUS:Sheet(0) Fuser Pass!! C_Temp = 182 Tar_Temp = 180
+58410:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+58410:FUS:Sheet(1) Print Target Temp = 180 
+58426:LSU:Test Pattern Write Start
+58436:LSU:Test Pattern Write Stop
+58476:LSU:Test Pattern Write Start
+58486:LSU:Test Pattern Write Stop
+58526:LSU:Test Pattern Write Start
+58536:LSU:Test Pattern Write Stop
+58576:LSU:Test Pattern Write Start
+58586:LSU:Test Pattern Write Stop
+58626:LSU:Test Pattern Write Start
+58636:LSU:Test Pattern Write Stop
+58676:LSU:Test Pattern Write Start
+58686:LSU:Test Pattern Write Stop
+58690:PAP:Main Exit Finish Sid[0]
+58690:FUS:Sheet(0) Exit Sensor Off!! C_Temp = 182 
+58690:IMG:Med Paper Exit[0]
+58690:PMNG:Exit Paper Not Used Currently!
+58690:PMNG:Dummy Print Page Complete Counter 1
+58690:PMNG:Sheet Complete(0)
+58692:PMNG:Main Motor Status 1
+58692:PMNG:Fuser Motor Status 0
+58692:PMNG:Paper Finish(0)
+58692:IMG:Med Imaging Complete[0]
+58692:PAP:##Paper Complete!! Sid[0]
+58726:LSU:Test Pattern Write Start
+58730:PAP:Fuser Entry Reach Sid[1]
+58730:FUS:Sheet(1) Fuser In!! C_Temp = 182 Tar_Temp = 180
+58736:LSU:Test Pattern Write Stop
+58776:LSU:Test Pattern Write Start
+58786:LSU:Test Pattern Write Stop
+58826:LSU:Test Pattern Write Start
+58836:LSU:Test Pattern Write Stop
+58876:LSU:Test Pattern Write Start
+58886:LSU:Test Pattern Write Stop
+58926:LSU:Test Pattern Write Start
+58936:LSU:Test Pattern Write Stop
+58976:LSU:Test Pattern Write Start
+58986:LSU:Test Pattern Write Stop
+59026:LSU:Test Pattern Write Start
+59036:LSU:Test Pattern Write Stop
+59076:LSU:Test Pattern Write Start
+59086:LSU:Test Pattern Write Stop
+59126:LSU:Test Pattern Write Start
+59136:LSU:Test Pattern Write Stop
+59176:LSU:Test Pattern Write Start
+59186:LSU:Test Pattern Write Stop
+59226:LSU:Test Pattern Write Start
+59236:LSU:Test Pattern Write Stop
+59276:LSU:Test Pattern Write Start
+59286:LSU:Test Pattern Write Stop
+59326:LSU:Test Pattern Write Start
+59336:LSU:Test Pattern Write Stop
+59376:LSU:Test Pattern Write Start
+59386:LSU:Test Pattern Write Stop
+59426:LSU:Test Pattern Write Start
+59436:LSU:Test Pattern Write Stop
+59476:LSU:Test Pattern Write Start
+59486:LSU:Test Pattern Write Stop
+59526:LSU:Test Pattern Write Start
+59536:LSU:Test Pattern Write Stop
+59576:LSU:Test Pattern Write Start
+59586:LSU:Test Pattern Write Stop
+59626:LSU:Test Pattern Write Start
+59636:LSU:Test Pattern Write Stop
+59676:LSU:Test Pattern Write Start
+59686:LSU:Test Pattern Write Stop
+59726:LSU:Test Pattern Write Start
+59736:LSU:Test Pattern Write Stop
+59776:LSU:Test Pattern Write Start
+59786:LSU:Test Pattern Write Stop
+59826:LSU:Test Pattern Write Start
+59836:LSU:Test Pattern Write Stop
+59876:LSU:Test Pattern Write Start
+59886:LSU:Test Pattern Write Stop
+59926:LSU:Test Pattern Write Start
+59936:LSU:Test Pattern Write Stop
+59976:LSU:Test Pattern Write Start
+59986:LSU:Test Pattern Write Stop
+60026:LSU:Test Pattern Write Start
+60036:LSU:Test Pattern Write Stop
+60070:PAP:Unmask SN Fro Off
+60076:LSU:Test Pattern Write Start
+60086:LSU:Test Pattern Write Stop
+60126:LSU:Test Pattern Write Start
+60136:LSU:Test Pattern Write Stop
+60160:PAP:Feed Space Release, Kind[2]
+60176:LSU:Test Pattern Write Start
+60186:LSU:Test Pattern Write Stop
+60226:LSU:Test Pattern Write Start
+60236:LSU:Test Pattern Write Stop
+60276:LSU:Test Pattern Write Start
+60286:LSU:Test Pattern Write Stop
+60326:LSU:Test Pattern Write Start
+60336:LSU:Test Pattern Write Stop
+60366:LSU:Imaging Write Stop
+60366:IMG:Med Vsync Off
+60366:IMG:Tsk_img Write Param Set ID:2
+60366:LSU:Imaging Param Start
+60366:LSU:Imaging Param End
+60366:IMG:Tsk_img Print Status:[1][1][1][1]
+60366:PAP:*Image Regist Ready, Sid[2] *
+60414:PAP:Feed Space Release, Kind[0]
+60414:DEV:Standard Feed Solenoid On
+60414:PAP:SOL Tray1 [1] Cnt[1]
+60414:PAP:Feed Start, Sid[2] Fid[0]
+60414:PAP:Subscan[5] Factory[0] User[0]
+60414:PAP:Trans[15], Subscan[5], Sid[2]
+60416:PMNG:Feed Paper(2)
+60416:IMG:Med Feed Ok[2]
+60416:PMNG:Sheet Execute Start(0)
+60416:PMNG:id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+60416:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+60416:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+60416:PMNG:Request Image Start(0)
+60416:PMNG:Request Paper Start(0)
+60416:PMNG:Print Image Prepare OK By Engine Itself(0)
+60418:FUS:Sheet(0) Added To Fuser Sheet Queue
+60418:IMG:Med Print Start[0]
+60418:IMG:Med Image Print Data Ready[0]
+60418:PAP:Print Cnt[4], Sid[0]
+60418:PAP:Bending[0] Sid[0]
+60418:PAP:Env Kind[0], Sid[0]
+60418:PAP:##Paper Start!! Sid[0]
+60418:PAP:*Dc Data Ready, Sid[0] *
+60420:PMNG:Fuser Motor Rotate(0)
+60420:PMNG:Fuser Print Enable(0)
+60420:IMG:Tsk_img Print Status:[0][0][1][1]
+60420:PAP:Tsk Start! Sid[0]
+60420:PAP:Fuser Temp Check[0] Sid[0]
+60420:PAP:Unmask SN Fro On
+60420:PAP:*Fuser Temp Ready, Sid[0] *
+60420:IMG:Med Fuser Ok
+60420:PAP:Dc Data Check[1] Sid[0]
+60420:PAP:Feed Space Check[0] Sid[0]
+60570:DEV:Standard Feed Solenoid Off
+60570:PAP:SOL Tray1 [0] Cnt[0]
+60782:PAP:Sn[2] Value[0]
+60782:PAP:SN Fro Off
+60782:PAP:+++Size[3427],Serr[2670],Lerr[3270],Sid[1]+++
+60782:PMNG:Cancel Sheet:Miss Print
+60782:PMNG:Miss Print Sid(1)--(Paper Size Error)
+60782:FUS:Process Cancel Message From PMNG
+60782:PMNG:Cancel Exec Sid = (0)
+60782:IMG:Med Front Sensor Off[1]
+60784:IMG:Med Paper End[0]
+60784:PAP:Cancel Start!! Sid[0]Wait[0]Rear[0]
+60784:IMG:Med Imaging Sheet[0] Cancel
+60784:IMG:Med Imaging Print Finish
+60786:PMNG:Image Finish(0)
+60786:PMNG:Sheet Complete(0)
+60786:PAP:Int SN Fro On
+60786:PMNG:Main Motor Status 1
+60786:PMNG:Fuser Motor Status 0
+60786:PMNG:Paper Finish(0)
+60786:IMG:Med Imaging Complete[0]
+60786:PAP:##Paper Complete!! Sid[0]
+60786:PAP:Feed Retry Stop Tid[0]
+60788:IMG:Med Front Sensor On[2]
+60788:FUS:Sheet(2) Front Sensor On!! C_Temp = 176 Tar_Temp = 180
+60788:FUS:Regist Restart Note From Paper
+60788:PAP:Space Set Start,Sid[2]
+60788:PAP:Feed Space Offset Value[560] Sid[2]
+60788:PAP:Real[376] Logic[317]
+60788:PAP:OffsetT[59] SpaceT[2472] Sid[2]
+60788:PAP:Tray1 Space Value[560], Sid[2]
+60788:PAP:Manual Space Value[430], Sid[2]
+60788:PAP:Tray1 Space Time[2413]
+60788:PAP:Manual Space Time[2594]
+60788:PAP:Duplex Space Time[2165]
+60800:IMG:Med Trans Bias Idle Read Start
+60800:IMG:Comp Trans Bias CL Read Start
+60802:PAP:Transfer Enable Sid[2]
+60802:IMG:Tsk_img Paper Trans Able
+60802:LSU:Imaging Write Test Pattern Print Start
+60802:IMG:Med Vsync On
+60806:IMG:Comp Bias[1] Read Value:1000 1000 968 
+60806:IMG:Comp Bias[1] Read Avg:1000
+60806:IMG:Comp Trans Bias CL Read Finish
+60812:PAP:Sn[2] Value[1]
+60812:PAP:SN Fro On
+60816:LSU:Test Pattern Write Start
+60822:IMG:Med Paper LD Pass
+60826:LSU:Test Pattern Write Stop
+60866:LSU:Test Pattern Write Start
+60876:LSU:Test Pattern Write Stop
+60916:LSU:Test Pattern Write Start
+60926:LSU:Test Pattern Write Stop
+60966:LSU:Test Pattern Write Start
+60976:LSU:Test Pattern Write Stop
+61016:LSU:Test Pattern Write Start
+61026:LSU:Test Pattern Write Stop
+61044:IMG:Med Exchange Imaging Bias(Tail)
+61044:DEV:Trans Abs Voltage Value 500
+61044:DEV:Trans Duty = 2525
+61044:IMG:Comp Trans Bias Target:[500]
+61044:IMG:Med Finish Check[1]
+61044:IMG:Med Imaging Print Finish
+61044:PMNG:Image Finish(1)
+61054:IMG:Med Trans Bias Head Read Start
+61054:IMG:Comp Trans Bias DET Read Start
+61066:LSU:Test Pattern Write Start
+61072:IMG:Med Paper Trans Pass
+61076:LSU:Test Pattern Write Stop
+61078:IMG:Comp Bias[2] Read Value:344 381 369 381 373 373 373 371 376 386 
+61078:IMG:Comp Bias[2] Read Value:372 373 
+61080:IMG:Comp Bias[2] Read Avg:374
+61080:IMG:Comp Trans Bias DET Read Finish
+61080:IMG:Med Exchange Imaging Bias
+61080:IMG:Comp Trans Bias Step[1]:[833]
+61080:DEV:Trans Abs Voltage Value 833
+61080:DEV:Trans Duty = 3093
+61080:IMG:Comp Trans Bias Target:[1500]
+61084:IMG:Comp Trans Bias Step[2]:[1166]
+61084:DEV:Trans Abs Voltage Value 1166
+61084:DEV:Trans Duty = 3661
+61088:IMG:Comp Trans Bias Step[0]:[1500]
+61088:DEV:Trans Abs Voltage Value 1500
+61088:DEV:Trans Duty = 4230
+61118:LSU:Test Pattern Write Start
+61128:LSU:Test Pattern Write Stop
+61168:LSU:Test Pattern Write Start
+61178:LSU:Test Pattern Write Stop
+61218:LSU:Test Pattern Write Start
+61228:LSU:Test Pattern Write Stop
+61268:LSU:Test Pattern Write Start
+61278:LSU:Test Pattern Write Stop
+61318:LSU:Test Pattern Write Start
+61328:LSU:Test Pattern Write Stop
+61368:LSU:Test Pattern Write Start
+61378:LSU:Test Pattern Write Stop
+61418:LSU:Test Pattern Write Start
+61428:LSU:Test Pattern Write Stop
+61468:LSU:Test Pattern Write Start
+61478:LSU:Test Pattern Write Stop
+61512:PAP:Fuser Pass, Sid[1]
+61512:CMD:Manual Print Unavailable Not Used Currently!
+61512:FUS:Sheet(1) Fuser Pass!! C_Temp = 177 Tar_Temp = 180
+61512:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+61512:FUS:Sheet(2) Print Target Temp = 180 
+61518:LSU:Test Pattern Write Start
+61522:PAP:Fuser Entry Reach Sid[2]
+61522:FUS:Sheet(2) Fuser In!! C_Temp = 177 Tar_Temp = 180
+61528:LSU:Test Pattern Write Stop
+61568:LSU:Test Pattern Write Start
+61578:LSU:Test Pattern Write Stop
+61618:LSU:Test Pattern Write Start
+61628:LSU:Test Pattern Write Stop
+61668:LSU:Test Pattern Write Start
+61678:LSU:Test Pattern Write Stop
+61718:LSU:Test Pattern Write Start
+61728:LSU:Test Pattern Write Stop
+61768:LSU:Test Pattern Write Start
+61778:LSU:Test Pattern Write Stop
+61792:PAP:Main Exit Finish Sid[1]
+61792:FUS:Sheet(1) Exit Sensor Off!! C_Temp = 177 
+61792:IMG:Med Paper Exit[1]
+61792:PMNG:Exit Paper Not Used Currently!
+61792:PMNG:Dummy Print Page Complete Counter 2
+61792:PMNG:Sheet Complete(1)
+61792:PMNG:Main Motor Status 1
+61794:PMNG:Fuser Motor Status 0
+61794:PMNG:Paper Finish(1)
+61794:IMG:Med Imaging Complete[1]
+61794:PAP:##Paper Complete!! Sid[1]
+61818:LSU:Test Pattern Write Start
+61828:LSU:Test Pattern Write Stop
+61868:LSU:Test Pattern Write Start
+61878:LSU:Test Pattern Write Stop
+61918:LSU:Test Pattern Write Start
+61928:LSU:Test Pattern Write Stop
+61968:LSU:Test Pattern Write Start
+61978:LSU:Test Pattern Write Stop
+62018:LSU:Test Pattern Write Start
+62028:LSU:Test Pattern Write Stop
+62068:LSU:Test Pattern Write Start
+62078:LSU:Test Pattern Write Stop
+62118:LSU:Test Pattern Write Start
+62128:LSU:Test Pattern Write Stop
+62168:LSU:Test Pattern Write Start
+62178:LSU:Test Pattern Write Stop
+62218:LSU:Test Pattern Write Start
+62228:LSU:Test Pattern Write Stop
+62268:LSU:Test Pattern Write Start
+62278:LSU:Test Pattern Write Stop
+62318:LSU:Test Pattern Write Start
+62328:LSU:Test Pattern Write Stop
+62368:LSU:Test Pattern Write Start
+62378:LSU:Test Pattern Write Stop
+62418:LSU:Test Pattern Write Start
+62428:LSU:Test Pattern Write Stop
+62468:LSU:Test Pattern Write Start
+62478:LSU:Test Pattern Write Stop
+62518:LSU:Test Pattern Write Start
+62528:LSU:Test Pattern Write Stop
+62568:LSU:Test Pattern Write Start
+62578:LSU:Test Pattern Write Stop
+62618:LSU:Test Pattern Write Start
+62628:LSU:Test Pattern Write Stop
+62668:LSU:Test Pattern Write Start
+62678:LSU:Test Pattern Write Stop
+62718:LSU:Test Pattern Write Start
+62728:LSU:Test Pattern Write Stop
+62768:LSU:Test Pattern Write Start
+62778:LSU:Test Pattern Write Stop
+62818:LSU:Test Pattern Write Start
+62828:LSU:Test Pattern Write Stop
+62862:PAP:Unmask SN Fro Off
+62868:LSU:Test Pattern Write Start
+62878:LSU:Test Pattern Write Stop
+62918:LSU:Test Pattern Write Start
+62928:LSU:Test Pattern Write Stop
+62956:PAP:Feed Space Release, Kind[2]
+62968:LSU:Test Pattern Write Start
+62978:LSU:Test Pattern Write Stop
+63004:PAP:Sn[2] Value[0]
+63004:PAP:SN Fro Off
+63004:PAP:+++Size[2701],Serr[2670],Lerr[3270],Sid[2]+++
+63004:IMG:Med Front Sensor Off[2]
+63018:LSU:Test Pattern Write Start
+63028:LSU:Test Pattern Write Stop
+63042:IMG:Med Paper LD Pass
+63042:LSU:Imaging Write Stop
+63042:LSU:Imaging Data Mask Write
+63042:IMG:Tsk_img LD Pass ->Mask
+63042:IMG:Med Vsync Off
+63204:PAP:Feed Space Release, Kind[0]
+63264:IMG:Med Exchange Imaging Bias(Tail)
+63264:DEV:Trans Abs Voltage Value 500
+63264:DEV:Trans Duty = 2525
+63264:IMG:Comp Trans Bias Target:[500]
+63264:IMG:Med Finish Check[2]
+63264:IMG:Channel Print Finish
+63264:IMG:Proc Print Finish
+63264:IMG:Med Imaging Print Finish
+63264:PMNG:Image Finish(2)
+63292:IMG:Med Paper Trans Pass
+63386:PAP:Feed Space Release, Kind[1]
+63732:PAP:Fuser Pass, Sid[2]
+63732:CMD:Manual Print Unavailable Not Used Currently!
+63732:STS:Manual Tray Remain Enable
+63732:FUS:Sheet(2) Fuser Pass!! C_Temp = 181 Tar_Temp = 180
+63732:FUS:Mode Change!! C_Temp = 181 )
+63732:FUS:Print / Print -> Standby / PrintAfter
+63732:FUS:Print After Tar_Temp = 180
+64012:PAP:Main Exit Finish Sid[2]
+64012:FUS:Sheet(2) Exit Sensor Off!! C_Temp = 181 
+64012:FUS:All Fuser Sheet Print Finish
+64012:IMG:Med Paper Exit[2]
+64012:IMG:Channel Info Paper Exit
+64012:IMG:Comp Trans Bias Target:[-1000]
+64012:DEV:THV Voltage Off
+64012:IMG:Comp Trans Bias Enable On
+64012:PMNG:Exit Paper Not Used Currently!
+64014:PMNG:Dummy Print Page Complete Counter 3
+64014:PMNG:Sheet Complete(2)
+64014:PMNG:Main Motor Status 1
+64014:PMNG:Fuser Motor Status 0
+64014:PMNG:Paper Finish(2)
+64014:IMG:Med Imaging Complete[2]
+64014:PAP:##Paper Complete!! Sid[2]
+64014:PAP:Paper Dev Stop Normal
+64514:DEV:StepMotor Clock Off
+64514:LSU:Ld Off
+64514:IMG:Comp Trans Bias Off
+64514:IMG:Comp Trans Bias Enable OFF
+64514:IMG:Comp Charge Bias Off
+64514:DEV:Charge Voltage Off
+64514:IMG:Comp Develop Dc Bias Off
+64514:DEV:Develop Voltage Off
+64514:IMG:Channel Print End
+64514:IMG:Med Ntf Mechanism Stop
+64514:STS:Under 60s: Drive Counter[1274][0][10070]
+64514:PAP:Main Mt Drive[0], Speed[3]
+64516:PMNG:Main Motor Status 0
+64516:PMNG:Fuser Motor Status 0
+64516:PMNG:Paper Fail Safe
+64516:PMNG:Notify Status Test Print Finish(False)
+64516:PMNG:Image Actuator Stop
+64516:IMG:Comp Polygon Off
+64516:LSU:Polygon Off
+64516:PAP:Paper Dev Stop Force
+64516:STS:Print Finish!! Job Count[3]
+64516:STS:Stop Enable Change[1]
+64516:STS:Main->Ready,Sub->None
+64516:STS:Safe Protect Timer Start = 28800000
+64516:FUS:Engine Print Finish Message From PMNG!!
+64518:FUS:Print Finish Note For Fan
+64518:FUS:Plotter Status To Standby
+64518:CMD:Print Complete!
+64518:DEV:Step Motor Hold Off
+64518:LSU:Polygon Enable Off
+64528:LSU:Polygon Clk Off
+64568:LSU:Polygon Lock Off
+64742:FUS:Mode Change!! C_Temp = 179 )
+64742:FUS:Standby / PrintAfter -> Standby / Standby
+64742:FUS:Standby Tar_Temp = 150
+84522:FUS:Print After Fan Off Delay Timer Out
+84522:DEV:Main Fan Off
+228034:PAP:Sn[3] Value[0]
+228034:STS:Main Tray Remain:0
+228034:CMD:Tray[0], Paper Exist[0]
+294034:PAP:Sn[3] Value[1]
+294034:STS:Main Tray Remain:100
+294034:CMD:Tray[0], Paper Exist[1]
+596264:
+---CMD DEBUG START---
+596264:CMD:Log Display ON!
+596264:MB1_Interrupt
+596264:CMD:Log Display OFF!
+596264:
+---CMD DEBUG END---
+596264:CMD:Hand Shake Received!
+596264:MB0 int
+785558:PMNG:Dummy Start Exec Mode(3)
+785558:FUS:Received Print Prepare Request
+785558:STS:Standby To Other Main Status 8H Timer Stop[0]
+785558:STS:Stop Enable Change[0]
+785558:STS:Main->Run,Sub->Dummy  
+785558:IMG:Med Polygon On
+785558:IMG:Comp Polygon On[0]
+785558:LSU:Polygon On
+785560:PMNG:Sheet Execute Start(0)
+785560:PMNG:id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+785560:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+785560:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+785560:PMNG:Request Image Start(0)
+785560:PMNG:Request Paper Start(0)
+785560:PMNG:Print Image Prepare OK By Engine Itself(0)
+785560:FUS:Mode Change!! C_Temp = 153 )
+785560:FUS:Standby / Standby -> Print / Print
+785560:FUS:Print Start Note For Fan
+785560:DEV:Main Fan On
+785560:FUS:Sheet(0) Added To Fuser Sheet Queue
+785560:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+785560:FUS:Sheet(0) Print Target Temp = 180 
+785560:IMG:Med Print Start[0]
+785562:IMG:Channel Print Start
+785562:IMG:Proc Print Start
+785562:IMG:Comp Polygon Lock Wait
+785562:IMG:Med Image Print Data Ready[0]
+785562:PAP:Print Cnt[1], Sid[0]
+785562:PAP:Bending[0] Sid[0]
+785562:PAP:Env Kind[0], Sid[0]
+785562:PAP:##Paper Start!! Sid[0]
+785562:PAP:*Dc Data Ready, Sid[0] *
+785562:IMG:Tsk_img Write Param Set ID:0
+785562:LSU:Imaging Param Start
+785562:LSU:Imaging Param End
+785562:IMG:Tsk_img Print Status:[1][0][1][1]
+785562:IMG:Tsk_img Print Status:[1][0][1][1]
+785564:PAP:Tsk Start! Sid[0]
+785564:PAP:Fuser Temp Check[0] Sid[0]
+785568:LSU:Polygon Clk On Sd:0,type:2
+785578:LSU:Polygon Enable On
+787714:FUS:Feed Start Temp Reach!!C_Temp = 160 Tar_Temp = 180
+787714:PMNG:Fuser Motor Rotate(0)
+787714:IMG:Med Fuser Ok
+787764:FUS:Register Start Temp Reach
+787764:PMNG:Fuser Print Enable(0)
+787764:PAP:*Fuser Temp Ready, Sid[0] *
+787764:PAP:Dc Data Check[1] Sid[0]
+787764:PAP:Feed Space Check[1] Sid[0]
+788268:LSU:Polygon Lock
+788268:IMG:Tsk_ctrl Polygon Lock
+788268:LSU:LD Power Set 190
+788268:LSU:LD Expect Vref Set [528]mV
+788268:LSU:Vref Index[9]
+788268:LSU:Vref Output [543]mV
+788268:LSU:Ld On
+788268:IMG:Comp Main Motor[1],Speed:[0]
+788268:DEV:Step Motor Hold On
+788268:IMG:Comp Trans Bias Enable OFF
+788268:DEV:Trans Abs Voltage Value 500
+788268:DEV:Trans Duty = 2525
+788268:IMG:Comp Trans Bias Target:[500]
+788274:IMG:Comp Charge Bias Target:[-1150]
+788274:DEV:Charge Voltage Value 1150
+788274:DEV:Charge Duty = 6211
+788278:LSU:Ld On Seq 1
+788288:LSU:Ld On Seq 2
+788292:DEV:StepMotor Clock On Speed Nomal
+788318:LSU:Ld Sync Ok
+788318:IMG:Tsk_ctrl Ld Sync
+788796:DEV:MainMotor lock
+788796:IMG:Comp Main Motor Lock
+788796:PAP:Main Mt Drive[1], Speed[0]
+788796:DEV:Standard Feed Solenoid On
+788796:PAP:SOL Tray1 [1] Cnt[1]
+788796:PAP:Feed Start, Sid[0] Fid[0]
+788796:PAP:Subscan[5] Factory[0] User[0]
+788796:PAP:Trans[15], Subscan[5], Sid[0]
+788798:PMNG:Feed Paper(0)
+788798:IMG:Med Feed Ok[0]
+788798:PMNG:Sheet Execute Start(1)
+788798:PMNG:id:1 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+788798:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+788798:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+788800:PMNG:Request Image Start(1)
+788800:PMNG:Request Paper Start(1)
+788800:PMNG:Print Image Prepare OK By Engine Itself(1)
+788800:FUS:Sheet(1) Added To Fuser Sheet Queue
+788800:IMG:Med Print Start[1]
+788800:IMG:Med Image Print Data Ready[1]
+788800:PAP:Print Cnt[2], Sid[1]
+788800:PAP:Bending[0] Sid[1]
+788800:PAP:Env Kind[0], Sid[1]
+788802:PAP:##Paper Start!! Sid[1]
+788802:PAP:*Dc Data Ready, Sid[1] *
+788802:PAP:Unmask SN Fro On
+788802:PMNG:Fuser Motor Rotate(1)
+788802:PMNG:Fuser Print Enable(1)
+788802:IMG:Tsk_img Print Status:[0][0][1][1]
+788802:PAP:Tsk Start! Sid[1]
+788802:PAP:Fuser Temp Check[0] Sid[1]
+788802:IMG:Med Fuser Ok
+788804:PAP:*Fuser Temp Ready, Sid[1] *
+788804:PAP:Dc Data Check[1] Sid[1]
+788804:PAP:Feed Space Check[0] Sid[1]
+788870:IMG:Comp Develop Dc Bias Target:[-300]
+788870:DEV:Develop Abs Voltage Value 300
+788870:DEV:Develop Duty = 5709
+788870:IMG:Channel Print Boot End
+788870:IMG:Med Gap OK
+788870:IMG:Tsk_img Print Status:[1][1][1][1]
+788870:PAP:*Image Regist Ready, Sid[0] *
+788952:DEV:Standard Feed Solenoid Off
+788952:PAP:SOL Tray1 [0] Cnt[0]
+789060:PAP:Int SN Fro On
+789062:PAP:Feed Retry Stop Tid[0]
+789062:IMG:Med Front Sensor On[0]
+789062:FUS:Paper Roll Check Wait Timer(500 ms) Start
+789062:FUS:Sheet(0) Front Sensor On!! C_Temp = 171 Tar_Temp = 180
+789062:FUS:Regist Restart Note From Paper
+789062:PAP:Space Set Start,Sid[0]
+789062:PAP:Feed Space Offset Value[560] Sid[0]
+789062:PAP:Real[268] Logic[317]
+789062:PAP:OffsetT[100] SpaceT[2472] Sid[0]
+789062:PAP:Tray1 Space Value[560], Sid[0]
+789062:PAP:Manual Space Value[430], Sid[0]
+789062:PAP:Tray1 Space Time[2372]
+789062:PAP:Manual Space Time[2594]
+789064:PAP:Duplex Space Time[2165]
+789076:PAP:Transfer Enable Sid[0]
+789076:IMG:Tsk_img Paper Trans Able
+789076:LSU:Imaging Write Test Pattern Print Start
+789076:IMG:Med Vsync On
+789076:IMG:Med Trans Bias Idle Read Start
+789076:IMG:Comp Trans Bias CL Read Start
+789078:IMG:Med Gap OK
+789078:IMG:Tsk_img Print Status:[0][1][1][1]
+789082:IMG:Comp Bias[1] Read Value:375 375 393 
+789082:IMG:Comp Bias[1] Read Avg:375
+789082:IMG:Comp Trans Bias CL Read Finish
+789084:PAP:Sn[2] Value[1]
+789084:PAP:SN Fro On
+789088:LSU:Test Pattern Write Start
+789098:LSU:Test Pattern Write Stop
+789138:LSU:Test Pattern Write Start
+789148:LSU:Test Pattern Write Stop
+789188:LSU:Test Pattern Write Start
+789198:LSU:Test Pattern Write Stop
+789214:FUS:Print Roll Paper Check By Now Temp Start!! Tar_Temp =180 Now_Temp = 172
+789238:LSU:Test Pattern Write Start
+789248:LSU:Test Pattern Write Stop
+789288:LSU:Test Pattern Write Start
+789298:LSU:Test Pattern Write Stop
+789330:IMG:Med Trans Bias Head Read Start
+789330:IMG:Comp Trans Bias DET Read Start
+789338:LSU:Test Pattern Write Start
+789348:LSU:Test Pattern Write Stop
+789354:IMG:Comp Bias[2] Read Value:315 286 273 270 265 292 289 367 324 344 
+789354:IMG:Comp Bias[2] Read Value:356 381 
+789354:IMG:Comp Bias[2] Read Avg:311
+789354:IMG:Comp Trans Bias DET Read Finish
+789354:IMG:Med Exchange Imaging Bias
+789354:IMG:Comp Trans Bias Step[1]:[833]
+789354:DEV:Trans Abs Voltage Value 833
+789354:DEV:Trans Duty = 3093
+789354:IMG:Comp Trans Bias Target:[1500]
+789358:IMG:Comp Trans Bias Step[2]:[1166]
+789358:DEV:Trans Abs Voltage Value 1166
+789358:DEV:Trans Duty = 3661
+789362:IMG:Comp Trans Bias Step[0]:[1500]
+789362:DEV:Trans Abs Voltage Value 1500
+789362:DEV:Trans Duty = 4230
+789388:LSU:Test Pattern Write Start
+789398:LSU:Test Pattern Write Stop
+789438:LSU:Test Pattern Write Start
+789448:LSU:Test Pattern Write Stop
+789488:LSU:Test Pattern Write Start
+789498:LSU:Test Pattern Write Stop
+789538:LSU:Test Pattern Write Start
+789548:LSU:Test Pattern Write Stop
+789588:LSU:Test Pattern Write Start
+789598:LSU:Test Pattern Write Stop
+789638:LSU:Test Pattern Write Start
+789648:LSU:Test Pattern Write Stop
+789688:LSU:Test Pattern Write Start
+789698:LSU:Test Pattern Write Stop
+789738:LSU:Test Pattern Write Start
+789748:LSU:Test Pattern Write Stop
+789788:LSU:Test Pattern Write Start
+789798:LSU:Test Pattern Write Stop
+789802:PAP:Fuser Entry Reach Sid[0]
+789802:FUS:Sheet(0) Fuser In!! C_Temp = 176 Tar_Temp = 180
+789838:LSU:Test Pattern Write Start
+789848:LSU:Test Pattern Write Stop
+789888:LSU:Test Pattern Write Start
+789898:LSU:Test Pattern Write Stop
+789938:LSU:Test Pattern Write Start
+789948:LSU:Test Pattern Write Stop
+789988:LSU:Test Pattern Write Start
+789998:LSU:Test Pattern Write Stop
+790038:LSU:Test Pattern Write Start
+790048:LSU:Test Pattern Write Stop
+790088:LSU:Test Pattern Write Start
+790098:LSU:Test Pattern Write Stop
+790138:LSU:Test Pattern Write Start
+790148:LSU:Test Pattern Write Stop
+790188:LSU:Test Pattern Write Start
+790198:LSU:Test Pattern Write Stop
+790238:LSU:Test Pattern Write Start
+790248:LSU:Test Pattern Write Stop
+790288:LSU:Test Pattern Write Start
+790298:LSU:Test Pattern Write Stop
+790338:LSU:Test Pattern Write Start
+790348:LSU:Test Pattern Write Stop
+790388:LSU:Test Pattern Write Start
+790398:LSU:Test Pattern Write Stop
+790438:LSU:Test Pattern Write Start
+790448:LSU:Test Pattern Write Stop
+790488:LSU:Test Pattern Write Start
+790498:LSU:Test Pattern Write Stop
+790538:LSU:Test Pattern Write Start
+790548:LSU:Test Pattern Write Stop
+790588:LSU:Test Pattern Write Start
+790598:LSU:Test Pattern Write Stop
+790638:LSU:Test Pattern Write Start
+790648:LSU:Test Pattern Write Stop
+790688:LSU:Test Pattern Write Start
+790698:LSU:Test Pattern Write Stop
+790738:LSU:Test Pattern Write Start
+790748:LSU:Test Pattern Write Stop
+790788:LSU:Test Pattern Write Start
+790798:LSU:Test Pattern Write Stop
+790838:LSU:Test Pattern Write Start
+790848:LSU:Test Pattern Write Stop
+790888:LSU:Test Pattern Write Start
+790898:LSU:Test Pattern Write Stop
+790938:LSU:Test Pattern Write Start
+790948:LSU:Test Pattern Write Stop
+790988:LSU:Test Pattern Write Start
+790998:LSU:Test Pattern Write Stop
+791038:LSU:Test Pattern Write Start
+791048:LSU:Test Pattern Write Stop
+791088:LSU:Test Pattern Write Start
+791098:LSU:Test Pattern Write Stop
+791138:LSU:Test Pattern Write Start
+791142:PAP:Unmask SN Fro Off
+791148:LSU:Test Pattern Write Stop
+791188:LSU:Test Pattern Write Start
+791198:LSU:Test Pattern Write Stop
+791230:PAP:Feed Space Release, Kind[2]
+791238:LSU:Test Pattern Write Start
+791248:LSU:Test Pattern Write Stop
+791288:LSU:Test Pattern Write Start
+791298:LSU:Test Pattern Write Stop
+791338:LSU:Test Pattern Write Start
+791348:LSU:Test Pattern Write Stop
+791388:LSU:Test Pattern Write Start
+791398:LSU:Test Pattern Write Stop
+791428:LSU:Imaging Write Stop
+791428:IMG:Med Vsync Off
+791428:IMG:Tsk_img Write Param Set ID:1
+791428:LSU:Imaging Param Start
+791428:LSU:Imaging Param End
+791428:IMG:Tsk_img Print Status:[1][1][1][1]
+791428:PAP:*Image Regist Ready, Sid[1] *
+791438:PAP:Feed Space Release, Kind[0]
+791438:DEV:Standard Feed Solenoid On
+791438:PAP:SOL Tray1 [1] Cnt[1]
+791438:PAP:Feed Start, Sid[1] Fid[0]
+791438:PAP:Subscan[5] Factory[0] User[0]
+791438:PAP:Trans[15], Subscan[5], Sid[1]
+791440:PMNG:Feed Paper(1)
+791440:IMG:Med Feed Ok[1]
+791440:PMNG:Sheet Execute Start(2)
+791440:PMNG:id:2 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+791440:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+791440:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+791440:PMNG:Request Image Start(2)
+791440:PMNG:Request Paper Start(2)
+791440:PMNG:Print Image Prepare OK By Engine Itself(2)
+791442:FUS:Sheet(2) Added To Fuser Sheet Queue
+791442:IMG:Med Print Start[2]
+791442:IMG:Med Image Print Data Ready[2]
+791442:PAP:Print Cnt[3], Sid[2]
+791442:PAP:Bending[0] Sid[2]
+791442:PAP:Env Kind[0], Sid[2]
+791442:PAP:##Paper Start!! Sid[2]
+791442:PAP:*Dc Data Ready, Sid[2] *
+791442:PAP:Unmask SN Fro On
+791444:PMNG:Fuser Motor Rotate(2)
+791444:PMNG:Fuser Print Enable(2)
+791444:IMG:Tsk_img Print Status:[0][0][1][1]
+791444:PAP:Tsk Start! Sid[2]
+791444:PAP:Fuser Temp Check[0] Sid[2]
+791444:IMG:Med Fuser Ok
+791444:PAP:*Fuser Temp Ready, Sid[2] *
+791444:PAP:Dc Data Check[1] Sid[2]
+791446:PAP:Feed Space Check[0] Sid[2]
+791494:PAP:Sn[2] Value[0]
+791494:PAP:SN Fro Off
+791494:PAP:+++Size[2976],Serr[2670],Lerr[3270],Sid[0]+++
+791494:IMG:Med Front Sensor Off[0]
+791532:IMG:Med Paper LD Pass
+791592:DEV:Standard Feed Solenoid Off
+791592:PAP:SOL Tray1 [0] Cnt[0]
+791720:PAP:Int SN Fro On
+791722:PAP:Feed Retry Stop Tid[0]
+791722:IMG:Med Front Sensor On[1]
+791722:FUS:Sheet(1) Front Sensor On!! C_Temp = 184 Tar_Temp = 180
+791722:FUS:Regist Restart Note From Paper
+791722:PAP:Space Set Start,Sid[1]
+791722:PAP:Feed Space Offset Value[560] Sid[1]
+791722:PAP:Real[286] Logic[317]
+791722:PAP:OffsetT[-31] SpaceT[2472] Sid[1]
+791722:PAP:Tray1 Space Value[560], Sid[1]
+791722:PAP:Manual Space Value[430], Sid[1]
+791722:PAP:Tray1 Space Time[2503]
+791722:PAP:Manual Space Time[2594]
+791722:PAP:Duplex Space Time[2165]
+791736:PAP:Transfer Enable Sid[1]
+791736:IMG:Tsk_img Paper Trans Able
+791736:LSU:Imaging Write Test Pattern Print Start
+791736:IMG:Med Vsync On
+791736:IMG:Med Trans Bias Idle Read Start
+791736:IMG:Comp Trans Bias CL Read Start
+791738:IMG:Med Gap OK
+791738:IMG:Tsk_img Print Status:[0][1][1][1]
+791742:IMG:Comp Bias[1] Read Value:1135 1135 1129 
+791742:IMG:Comp Bias[1] Read Avg:1135
+791742:IMG:Comp Trans Bias CL Read Finish
+791744:PAP:Sn[2] Value[1]
+791744:PAP:SN Fro On
+791748:LSU:Test Pattern Write Start
+791754:IMG:Med Exchange Imaging Bias(Tail)
+791754:DEV:Trans Abs Voltage Value 500
+791754:DEV:Trans Duty = 2525
+791754:IMG:Comp Trans Bias Target:[500]
+791754:IMG:Med Finish Check[0]
+791754:IMG:Med Imaging Print Finish
+791754:PMNG:Image Finish(0)
+791758:LSU:Test Pattern Write Stop
+791782:IMG:Med Paper Trans Pass
+791798:LSU:Test Pattern Write Start
+791808:LSU:Test Pattern Write Stop
+791848:LSU:Test Pattern Write Start
+791858:LSU:Test Pattern Write Stop
+791898:LSU:Test Pattern Write Start
+791908:LSU:Test Pattern Write Stop
+791948:LSU:Test Pattern Write Start
+791958:LSU:Test Pattern Write Stop
+791990:IMG:Med Trans Bias Head Read Start
+791990:IMG:Comp Trans Bias DET Read Start
+791998:LSU:Test Pattern Write Start
+792008:LSU:Test Pattern Write Stop
+792014:IMG:Comp Bias[2] Read Value:415 289 290 283 297 366 356 356 360 376 
+792014:IMG:Comp Bias[2] Read Value:356 331 
+792014:IMG:Comp Bias[2] Read Avg:337
+792014:IMG:Comp Trans Bias DET Read Finish
+792014:IMG:Med Exchange Imaging Bias
+792014:IMG:Comp Trans Bias Step[1]:[833]
+792014:DEV:Trans Abs Voltage Value 833
+792014:DEV:Trans Duty = 3093
+792014:IMG:Comp Trans Bias Target:[1500]
+792018:IMG:Comp Trans Bias Step[2]:[1166]
+792018:DEV:Trans Abs Voltage Value 1166
+792018:DEV:Trans Duty = 3661
+792022:IMG:Comp Trans Bias Step[0]:[1500]
+792022:DEV:Trans Abs Voltage Value 1500
+792022:DEV:Trans Duty = 4230
+792048:LSU:Test Pattern Write Start
+792058:LSU:Test Pattern Write Stop
+792098:LSU:Test Pattern Write Start
+792108:LSU:Test Pattern Write Stop
+792148:LSU:Test Pattern Write Start
+792158:LSU:Test Pattern Write Stop
+792198:LSU:Test Pattern Write Start
+792208:LSU:Test Pattern Write Stop
+792222:PAP:Fuser Pass, Sid[0]
+792222:CMD:Manual Print Unavailable Not Used Currently!
+792222:FUS:Sheet(0) Fuser Pass!! C_Temp = 184 Tar_Temp = 180
+792222:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+792222:FUS:Sheet(1) Print Target Temp = 180 
+792248:LSU:Test Pattern Write Start
+792258:LSU:Test Pattern Write Stop
+792298:LSU:Test Pattern Write Start
+792308:LSU:Test Pattern Write Stop
+792348:LSU:Test Pattern Write Start
+792358:LSU:Test Pattern Write Stop
+792398:LSU:Test Pattern Write Start
+792408:LSU:Test Pattern Write Stop
+792448:LSU:Test Pattern Write Start
+792458:LSU:Test Pattern Write Stop
+792462:PAP:Fuser Entry Reach Sid[1]
+792462:FUS:Sheet(1) Fuser In!! C_Temp = 184 Tar_Temp = 180
+792498:LSU:Test Pattern Write Start
+792502:PAP:Main Exit Finish Sid[0]
+792502:FUS:Sheet(0) Exit Sensor Off!! C_Temp = 184 
+792502:IMG:Med Paper Exit[0]
+792502:PMNG:Exit Paper Not Used Currently!
+792502:PMNG:Dummy Print Page Complete Counter 1
+792502:PMNG:Sheet Complete(0)
+792504:PMNG:Main Motor Status 1
+792504:PMNG:Fuser Motor Status 0
+792504:PMNG:Paper Finish(0)
+792504:IMG:Med Imaging Complete[0]
+792504:PAP:##Paper Complete!! Sid[0]
+792508:LSU:Test Pattern Write Stop
+792548:LSU:Test Pattern Write Start
+792558:LSU:Test Pattern Write Stop
+792598:LSU:Test Pattern Write Start
+792608:LSU:Test Pattern Write Stop
+792648:LSU:Test Pattern Write Start
+792658:LSU:Test Pattern Write Stop
+792698:LSU:Test Pattern Write Start
+792708:LSU:Test Pattern Write Stop
+792748:LSU:Test Pattern Write Start
+792758:LSU:Test Pattern Write Stop
+792798:LSU:Test Pattern Write Start
+792808:LSU:Test Pattern Write Stop
+792848:LSU:Test Pattern Write Start
+792858:LSU:Test Pattern Write Stop
+792898:LSU:Test Pattern Write Start
+792908:LSU:Test Pattern Write Stop
+792948:LSU:Test Pattern Write Start
+792958:LSU:Test Pattern Write Stop
+792998:LSU:Test Pattern Write Start
+793008:LSU:Test Pattern Write Stop
+793048:LSU:Test Pattern Write Start
+793058:LSU:Test Pattern Write Stop
+793098:LSU:Test Pattern Write Start
+793108:LSU:Test Pattern Write Stop
+793148:LSU:Test Pattern Write Start
+793158:LSU:Test Pattern Write Stop
+793198:LSU:Test Pattern Write Start
+793208:LSU:Test Pattern Write Stop
+793248:LSU:Test Pattern Write Start
+793258:LSU:Test Pattern Write Stop
+793298:LSU:Test Pattern Write Start
+793308:LSU:Test Pattern Write Stop
+793348:LSU:Test Pattern Write Start
+793358:LSU:Test Pattern Write Stop
+793398:LSU:Test Pattern Write Start
+793408:LSU:Test Pattern Write Stop
+793448:LSU:Test Pattern Write Start
+793458:LSU:Test Pattern Write Stop
+793498:LSU:Test Pattern Write Start
+793508:LSU:Test Pattern Write Stop
+793548:LSU:Test Pattern Write Start
+793558:LSU:Test Pattern Write Stop
+793598:LSU:Test Pattern Write Start
+793608:LSU:Test Pattern Write Stop
+793648:LSU:Test Pattern Write Start
+793658:LSU:Test Pattern Write Stop
+793698:LSU:Test Pattern Write Start
+793708:LSU:Test Pattern Write Stop
+793748:LSU:Test Pattern Write Start
+793758:LSU:Test Pattern Write Stop
+793798:LSU:Test Pattern Write Start
+793802:PAP:Unmask SN Fro Off
+793808:LSU:Test Pattern Write Stop
+793848:LSU:Test Pattern Write Start
+793858:LSU:Test Pattern Write Stop
+793888:PAP:Feed Space Release, Kind[2]
+793898:LSU:Test Pattern Write Start
+793904:PAP:Sn[2] Value[0]
+793904:PAP:SN Fro Off
+793904:PAP:+++Size[2660],Serr[2670],Lerr[3270],Sid[1]+++
+793904:PMNG:Cancel Sheet:Miss Print
+793904:PMNG:Miss Print Sid(1)--(Paper Size Error)
+793904:FUS:Process Cancel Message From PMNG
+793904:PMNG:Cancel Exec Sid = (2)
+793906:IMG:Med Front Sensor Off[1]
+793906:IMG:Med Paper End[2]
+793906:PAP:Cancel Start!! Sid[2]Wait[0]Rear[0]
+793906:IMG:Med Imaging Sheet[2] Cancel
+793906:IMG:Gap Imaging Gap Reset
+793906:IMG:Med Imaging Print Finish
+793908:PMNG:Image Finish(2)
+793908:PMNG:Sheet Complete(2)
+793908:PMNG:Main Motor Status 1
+793908:PMNG:Fuser Motor Status 0
+793908:PMNG:Paper Finish(2)
+793908:LSU:Test Pattern Write Stop
+793908:IMG:Med Imaging Complete[2]
+793908:PAP:##Paper Complete!! Sid[2]
+793944:IMG:Med Paper LD Pass
+793944:LSU:Imaging Write Stop
+793944:LSU:Imaging Data Mask Write
+793944:IMG:Tsk_img LD Pass ->Mask
+793944:IMG:Med Vsync Off
+794166:IMG:Med Exchange Imaging Bias(Tail)
+794166:DEV:Trans Abs Voltage Value 500
+794166:DEV:Trans Duty = 2525
+794166:IMG:Comp Trans Bias Target:[500]
+794166:IMG:Med Finish Check[1]
+794166:IMG:Channel Print Finish
+794166:IMG:Proc Print Finish
+794166:IMG:Med Imaging Print Finish
+794166:PMNG:Image Finish(1)
+794194:IMG:Med Paper Trans Pass
+794226:PAP:Feed Space Release, Kind[0]
+794318:PAP:Feed Space Release, Kind[1]
+794632:PAP:Fuser Pass, Sid[1]
+794632:CMD:Manual Print Unavailable Not Used Currently!
+794632:STS:Manual Tray Remain Enable
+794632:FUS:Sheet(1) Fuser Pass!! C_Temp = 177 Tar_Temp = 180
+794632:FUS:Mode Change!! C_Temp = 177 )
+794632:FUS:Print / Print -> Standby / PrintAfter
+794632:FUS:Print After Tar_Temp = 180
+794912:PAP:Main Exit Finish Sid[1]
+794912:FUS:Sheet(1) Exit Sensor Off!! C_Temp = 177 
+794912:FUS:All Fuser Sheet Print Finish
+794912:IMG:Med Paper Exit[1]
+794912:IMG:Channel Info Paper Exit
+794912:IMG:Comp Trans Bias Target:[-1000]
+794912:DEV:THV Voltage Off
+794912:IMG:Comp Trans Bias Enable On
+794912:PMNG:Exit Paper Not Used Currently!
+794914:PMNG:Dummy Print Page Complete Counter 2
+794914:PMNG:Sheet Complete(1)
+794914:PMNG:Main Motor Status 1
+794914:PMNG:Fuser Motor Status 0
+794914:PMNG:Paper Finish(1)
+794914:IMG:Med Imaging Complete[1]
+794914:PAP:##Paper Complete!! Sid[1]
+794914:PAP:Paper Dev Stop Normal
+795414:DEV:StepMotor Clock Off
+795414:LSU:Ld Off
+795414:IMG:Comp Trans Bias Off
+795414:IMG:Comp Trans Bias Enable OFF
+795414:IMG:Comp Charge Bias Off
+795414:DEV:Charge Voltage Off
+795414:IMG:Comp Develop Dc Bias Off
+795414:DEV:Develop Voltage Off
+795414:IMG:Channel Print End
+795414:IMG:Med Ntf Mechanism Stop
+795414:STS:Under 60s: Drive Counter[901][0][7120]
+795414:PAP:Main Mt Drive[0], Speed[3]
+795416:PMNG:Main Motor Status 0
+795416:PMNG:Fuser Motor Status 0
+795416:PMNG:Paper Fail Safe
+795416:PMNG:Notify Status Test Print Finish(False)
+795416:PMNG:Image Actuator Stop
+795416:STS:Print Finish!! Job Count[2]
+795416:STS:Stop Enable Change[1]
+795416:STS:Main->Ready,Sub->None
+795416:STS:Safe Protect Timer Start = 28800000
+795416:FUS:Engine Print Finish Message From PMNG!!
+795416:FUS:Print Finish Note For Fan
+795416:FUS:Plotter Status To Standby
+795418:IMG:Comp Polygon Off
+795418:LSU:Polygon Off
+795418:DEV:Step Motor Hold Off
+795418:PAP:Paper Dev Stop Force
+795418:CMD:Print Complete!
+795418:LSU:Polygon Enable Off
+795428:LSU:Polygon Clk Off
+795468:LSU:Polygon Lock Off
+795642:FUS:Mode Change!! C_Temp = 176 )
+795642:FUS:Standby / PrintAfter -> Standby / Standby
+795642:FUS:Standby Tar_Temp = 150
+815422:FUS:Print After Fan Off Delay Timer Out
+815422:DEV:Main Fan Off
+1544968:PMNG:Dummy Start Exec Mode(3)
+1544968:FUS:Received Print Prepare Request
+1544968:STS:Standby To Other Main Status 8H Timer Stop[0]
+1544968:STS:Stop Enable Change[0]
+1544968:STS:Main->Run,Sub->Dummy  
+1544968:IMG:Med Polygon On
+1544968:IMG:Comp Polygon On[0]
+1544968:LSU:Polygon On
+1544970:PMNG:Sheet Execute Start(0)
+1544970:PMNG:id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+1544970:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+1544970:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+1544970:PMNG:Request Image Start(0)
+1544970:PMNG:Request Paper Start(0)
+1544970:PMNG:Print Image Prepare OK By Engine Itself(0)
+1544970:FUS:Mode Change!! C_Temp = 149 )
+1544970:FUS:Standby / Standby -> Print / Print
+1544970:FUS:Print Start Note For Fan
+1544970:DEV:Main Fan On
+1544970:FUS:Sheet(0) Added To Fuser Sheet Queue
+1544970:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+1544970:FUS:Sheet(0) Print Target Temp = 180 
+1544970:IMG:Med Print Start[0]
+1544972:IMG:Channel Print Start
+1544972:IMG:Proc Print Start
+1544972:IMG:Comp Polygon Lock Wait
+1544972:IMG:Med Image Print Data Ready[0]
+1544972:PAP:Print Cnt[1], Sid[0]
+1544972:PAP:Bending[0] Sid[0]
+1544972:PAP:Env Kind[0], Sid[0]
+1544972:PAP:##Paper Start!! Sid[0]
+1544972:PAP:*Dc Data Ready, Sid[0] *
+1544972:IMG:Tsk_img Write Param Set ID:0
+1544972:LSU:Imaging Param Start
+1544972:LSU:Imaging Param End
+1544972:IMG:Tsk_img Print Status:[1][0][1][1]
+1544974:IMG:Tsk_img Print Status:[1][0][1][1]
+1544974:PAP:Tsk Start! Sid[0]
+1544974:PAP:Fuser Temp Check[0] Sid[0]
+1544978:LSU:Polygon Clk On Sd:0,type:2
+1544988:LSU:Polygon Enable On
+1547414:FUS:Feed Start Temp Reach!!C_Temp = 160 Tar_Temp = 180
+1547414:PMNG:Fuser Motor Rotate(0)
+1547414:IMG:Med Fuser Ok
+1547464:FUS:Register Start Temp Reach
+1547464:PMNG:Fuser Print Enable(0)
+1547464:PAP:*Fuser Temp Ready, Sid[0] *
+1547464:PAP:Dc Data Check[1] Sid[0]
+1547464:PAP:Feed Space Check[1] Sid[0]
+1547618:LSU:Polygon Lock
+1547618:IMG:Tsk_ctrl Polygon Lock
+1547618:LSU:LD Power Set 190
+1547618:LSU:LD Expect Vref Set [528]mV
+1547618:LSU:Vref Index[9]
+1547618:LSU:Vref Output [543]mV
+1547618:LSU:Ld On
+1547618:IMG:Comp Main Motor[1],Speed:[0]
+1547618:DEV:Step Motor Hold On
+1547618:IMG:Comp Trans Bias Enable OFF
+1547618:DEV:Trans Abs Voltage Value 500
+1547618:DEV:Trans Duty = 2525
+1547618:IMG:Comp Trans Bias Target:[500]
+1547624:IMG:Comp Charge Bias Target:[-1150]
+1547624:DEV:Charge Voltage Value 1150
+1547624:DEV:Charge Duty = 6211
+1547628:LSU:Ld On Seq 1
+1547638:LSU:Ld On Seq 2
+1547642:DEV:StepMotor Clock On Speed Nomal
+1547668:LSU:Ld Sync Ok
+1547668:IMG:Tsk_ctrl Ld Sync
+1548196:DEV:MainMotor lock
+1548196:IMG:Comp Main Motor Lock
+1548196:PAP:Main Mt Drive[1], Speed[0]
+1548196:DEV:Standard Feed Solenoid On
+1548196:PAP:SOL Tray1 [1] Cnt[1]
+1548196:PAP:Feed Start, Sid[0] Fid[0]
+1548196:PAP:Subscan[5] Factory[0] User[0]
+1548198:PAP:Trans[15], Subscan[5], Sid[0]
+1548198:PMNG:Feed Paper(0)
+1548198:IMG:Med Feed Ok[0]
+1548198:PMNG:Sheet Execute Start(1)
+1548198:PMNG:id:1 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+1548198:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+1548198:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+1548200:PMNG:Request Image Start(1)
+1548200:PMNG:Request Paper Start(1)
+1548200:PMNG:Print Image Prepare OK By Engine Itself(1)
+1548200:FUS:Sheet(1) Added To Fuser Sheet Queue
+1548200:IMG:Med Print Start[1]
+1548200:IMG:Med Image Print Data Ready[1]
+1548200:PAP:Print Cnt[2], Sid[1]
+1548200:PAP:Bending[0] Sid[1]
+1548200:PAP:Env Kind[0], Sid[1]
+1548202:PAP:##Paper Start!! Sid[1]
+1548202:PAP:*Dc Data Ready, Sid[1] *
+1548202:PAP:Unmask SN Fro On
+1548202:PMNG:Fuser Motor Rotate(1)
+1548202:PMNG:Fuser Print Enable(1)
+1548202:IMG:Tsk_img Print Status:[0][0][1][1]
+1548202:PAP:Tsk Start! Sid[1]
+1548202:PAP:Fuser Temp Check[0] Sid[1]
+1548202:IMG:Med Fuser Ok
+1548204:PAP:*Fuser Temp Ready, Sid[1] *
+1548204:PAP:Dc Data Check[1] Sid[1]
+1548204:PAP:Feed Space Check[0] Sid[1]
+1548220:IMG:Comp Develop Dc Bias Target:[-300]
+1548220:DEV:Develop Abs Voltage Value 300
+1548220:DEV:Develop Duty = 5709
+1548220:IMG:Channel Print Boot End
+1548220:IMG:Med Gap OK
+1548220:IMG:Tsk_img Print Status:[1][1][1][1]
+1548220:PAP:*Image Regist Ready, Sid[0] *
+1548352:DEV:Standard Feed Solenoid Off
+1548352:PAP:SOL Tray1 [0] Cnt[0]
+1548562:PAP:Int SN Fro On
+1548564:PAP:Feed Retry Stop Tid[0]
+1548564:IMG:Med Front Sensor On[0]
+1548564:FUS:Paper Roll Check Wait Timer(500 ms) Start
+1548564:FUS:Sheet(0) Front Sensor On!! C_Temp = 169 Tar_Temp = 180
+1548564:FUS:Regist Restart Note From Paper
+1548566:PAP:Space Set Start,Sid[0]
+1548566:PAP:Feed Space Offset Value[560] Sid[0]
+1548566:PAP:Real[372] Logic[317]
+1548566:PAP:OffsetT[100] SpaceT[2472] Sid[0]
+1548566:PAP:Tray1 Space Value[560], Sid[0]
+1548566:PAP:Manual Space Value[430], Sid[0]
+1548566:PAP:Tray1 Space Time[2372]
+1548566:PAP:Manual Space Time[2594]
+1548566:PAP:Duplex Space Time[2165]
+1548578:PAP:Transfer Enable Sid[0]
+1548578:IMG:Tsk_img Paper Trans Able
+1548578:LSU:Imaging Write Test Pattern Print Start
+1548578:IMG:Med Vsync On
+1548578:IMG:Med Trans Bias Idle Read Start
+1548578:IMG:Comp Trans Bias CL Read Start
+1548580:IMG:Med Gap OK
+1548580:IMG:Tsk_img Print Status:[0][1][1][1]
+1548584:IMG:Comp Bias[1] Read Value:407 451 446 
+1548586:IMG:Comp Bias[1] Read Avg:446
+1548586:IMG:Comp Trans Bias CL Read Finish
+1548588:LSU:Test Pattern Write Start
+1548594:PAP:Sn[2] Value[1]
+1548594:PAP:SN Fro On
+1548598:LSU:Test Pattern Write Stop
+1548638:LSU:Test Pattern Write Start
+1548648:LSU:Test Pattern Write Stop
+1548688:LSU:Test Pattern Write Start
+1548698:LSU:Test Pattern Write Stop
+1548738:LSU:Test Pattern Write Start
+1548748:LSU:Test Pattern Write Stop
+1548788:LSU:Test Pattern Write Start
+1548798:LSU:Test Pattern Write Stop
+1548814:FUS:Print Roll Paper Check By Now Temp Start!! Tar_Temp =180 Now_Temp = 172
+1548834:IMG:Med Trans Bias Head Read Start
+1548834:IMG:Comp Trans Bias DET Read Start
+1548840:LSU:Test Pattern Write Start
+1548850:LSU:Test Pattern Write Stop
+1548858:IMG:Comp Bias[2] Read Value:266 377 415 428 449 438 435 427 423 414 
+1548858:IMG:Comp Bias[2] Read Value:430 427 
+1548858:IMG:Comp Bias[2] Read Avg:421
+1548858:IMG:Comp Trans Bias DET Read Finish
+1548858:IMG:Med Exchange Imaging Bias
+1548858:IMG:Comp Trans Bias Step[1]:[833]
+1548858:DEV:Trans Abs Voltage Value 833
+1548858:DEV:Trans Duty = 3093
+1548858:IMG:Comp Trans Bias Target:[1500]
+1548862:IMG:Comp Trans Bias Step[2]:[1166]
+1548862:DEV:Trans Abs Voltage Value 1166
+1548862:DEV:Trans Duty = 3661
+1548866:IMG:Comp Trans Bias Step[0]:[1500]
+1548866:DEV:Trans Abs Voltage Value 1500
+1548866:DEV:Trans Duty = 4230
+1548890:LSU:Test Pattern Write Start
+1548900:LSU:Test Pattern Write Stop
+1548940:LSU:Test Pattern Write Start
+1548950:LSU:Test Pattern Write Stop
+1548990:LSU:Test Pattern Write Start
+1549000:LSU:Test Pattern Write Stop
+1549040:LSU:Test Pattern Write Start
+1549050:LSU:Test Pattern Write Stop
+1549090:LSU:Test Pattern Write Start
+1549100:LSU:Test Pattern Write Stop
+1549140:LSU:Test Pattern Write Start
+1549150:LSU:Test Pattern Write Stop
+1549190:LSU:Test Pattern Write Start
+1549200:LSU:Test Pattern Write Stop
+1549240:LSU:Test Pattern Write Start
+1549250:LSU:Test Pattern Write Stop
+1549290:LSU:Test Pattern Write Start
+1549300:LSU:Test Pattern Write Stop
+1549304:PAP:Fuser Entry Reach Sid[0]
+1549304:FUS:Sheet(0) Fuser In!! C_Temp = 175 Tar_Temp = 180
+1549340:LSU:Test Pattern Write Start
+1549350:LSU:Test Pattern Write Stop
+1549390:LSU:Test Pattern Write Start
+1549400:LSU:Test Pattern Write Stop
+1549440:LSU:Test Pattern Write Start
+1549450:LSU:Test Pattern Write Stop
+1549490:LSU:Test Pattern Write Start
+1549500:LSU:Test Pattern Write Stop
+1549540:LSU:Test Pattern Write Start
+1549550:LSU:Test Pattern Write Stop
+1549590:LSU:Test Pattern Write Start
+1549600:LSU:Test Pattern Write Stop
+1549640:LSU:Test Pattern Write Start
+1549650:LSU:Test Pattern Write Stop
+1549690:LSU:Test Pattern Write Start
+1549700:LSU:Test Pattern Write Stop
+1549740:LSU:Test Pattern Write Start
+1549750:LSU:Test Pattern Write Stop
+1549790:LSU:Test Pattern Write Start
+1549800:LSU:Test Pattern Write Stop
+1549840:LSU:Test Pattern Write Start
+1549850:LSU:Test Pattern Write Stop
+1549890:LSU:Test Pattern Write Start
+1549900:LSU:Test Pattern Write Stop
+1549940:LSU:Test Pattern Write Start
+1549950:LSU:Test Pattern Write Stop
+1549990:LSU:Test Pattern Write Start
+1550000:LSU:Test Pattern Write Stop
+1550040:LSU:Test Pattern Write Start
+1550050:LSU:Test Pattern Write Stop
+1550090:LSU:Test Pattern Write Start
+1550100:LSU:Test Pattern Write Stop
+1550140:LSU:Test Pattern Write Start
+1550150:LSU:Test Pattern Write Stop
+1550190:LSU:Test Pattern Write Start
+1550200:LSU:Test Pattern Write Stop
+1550240:LSU:Test Pattern Write Start
+1550250:LSU:Test Pattern Write Stop
+1550290:LSU:Test Pattern Write Start
+1550300:LSU:Test Pattern Write Stop
+1550340:LSU:Test Pattern Write Start
+1550350:LSU:Test Pattern Write Stop
+1550390:LSU:Test Pattern Write Start
+1550400:LSU:Test Pattern Write Stop
+1550440:LSU:Test Pattern Write Start
+1550450:LSU:Test Pattern Write Stop
+1550490:LSU:Test Pattern Write Start
+1550500:LSU:Test Pattern Write Stop
+1550540:LSU:Test Pattern Write Start
+1550550:LSU:Test Pattern Write Stop
+1550590:LSU:Test Pattern Write Start
+1550600:LSU:Test Pattern Write Stop
+1550640:LSU:Test Pattern Write Start
+1550644:PAP:Unmask SN Fro Off
+1550650:LSU:Test Pattern Write Stop
+1550690:LSU:Test Pattern Write Start
+1550700:LSU:Test Pattern Write Stop
+1550734:PAP:Feed Space Release, Kind[2]
+1550740:LSU:Test Pattern Write Start
+1550750:LSU:Test Pattern Write Stop
+1550790:LSU:Test Pattern Write Start
+1550800:LSU:Test Pattern Write Stop
+1550840:LSU:Test Pattern Write Start
+1550850:LSU:Test Pattern Write Stop
+1550866:PAP:Sn[2] Value[0]
+1550866:PAP:SN Fro Off
+1550866:PAP:+++Size[2809],Serr[2670],Lerr[3270],Sid[0]+++
+1550866:IMG:Med Front Sensor Off[0]
+1550890:LSU:Test Pattern Write Start
+1550900:LSU:Test Pattern Write Stop
+1550904:IMG:Med Paper LD Pass
+1550904:LSU:Imaging Write Stop
+1550904:LSU:Imaging Data Mask Write
+1550904:IMG:Tsk_img LD Pass ->Mask
+1550904:IMG:Med Vsync Off
+1550904:IMG:Tsk_img Write Param Set ID:1
+1550904:LSU:Imaging Param Start
+1550904:LSU:Imaging Param End
+1550904:IMG:Tsk_img Print Status:[1][1][1][1]
+1550904:PAP:*Image Regist Ready, Sid[1] *
+1550942:PAP:Feed Space Release, Kind[0]
+1550942:DEV:Standard Feed Solenoid On
+1550942:PAP:SOL Tray1 [1] Cnt[1]
+1550942:PAP:Feed Start, Sid[1] Fid[0]
+1550942:PAP:Subscan[5] Factory[0] User[0]
+1550942:PAP:Trans[15], Subscan[5], Sid[1]
+1550944:PMNG:Feed Paper(1)
+1550944:IMG:Med Feed Ok[1]
+1550944:PAP:Unmask SN Fro On
+1550944:PMNG:Sheet Execute Start(2)
+1550944:PMNG:id:2 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+1550944:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+1550944:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+1550944:PMNG:Request Image Start(2)
+1550944:PMNG:Request Paper Start(2)
+1550946:PMNG:Print Image Prepare OK By Engine Itself(2)
+1550946:FUS:Sheet(2) Added To Fuser Sheet Queue
+1550946:IMG:Med Print Start[2]
+1550946:IMG:Med Image Print Data Ready[2]
+1550946:PAP:Print Cnt[3], Sid[2]
+1550946:PAP:Bending[0] Sid[2]
+1550946:PAP:Env Kind[0], Sid[2]
+1550946:PAP:##Paper Start!! Sid[2]
+1550948:PAP:*Dc Data Ready, Sid[2] *
+1550948:PMNG:Fuser Motor Rotate(2)
+1550948:PMNG:Fuser Print Enable(2)
+1550948:IMG:Tsk_img Print Status:[0][0][1][1]
+1550948:PAP:Tsk Start! Sid[2]
+1550948:PAP:Fuser Temp Check[0] Sid[2]
+1550948:IMG:Med Fuser Ok
+1550948:PAP:*Fuser Temp Ready, Sid[2] *
+1550950:PAP:Dc Data Check[1] Sid[2]
+1550950:PAP:Feed Space Check[0] Sid[2]
+1551094:DEV:Standard Feed Solenoid Off
+1551094:PAP:SOL Tray1 [0] Cnt[0]
+1551126:IMG:Med Exchange Imaging Bias(Tail)
+1551126:DEV:Trans Abs Voltage Value 500
+1551126:DEV:Trans Duty = 2525
+1551126:IMG:Comp Trans Bias Target:[500]
+1551126:IMG:Med Finish Check[0]
+1551126:IMG:Med Imaging Print Finish
+1551126:PMNG:Image Finish(0)
+1551154:IMG:Med Paper Trans Pass
+1551306:PAP:Int SN Fro On
+1551308:PAP:Feed Retry Stop Tid[0]
+1551308:IMG:Med Front Sensor On[1]
+1551308:FUS:Sheet(1) Front Sensor On!! C_Temp = 184 Tar_Temp = 180
+1551308:FUS:Regist Restart Note From Paper
+1551308:PAP:Space Set Start,Sid[1]
+1551308:PAP:Feed Space Offset Value[560] Sid[1]
+1551308:PAP:Real[368] Logic[317]
+1551308:PAP:OffsetT[51] SpaceT[2472] Sid[1]
+1551308:PAP:Tray1 Space Value[560], Sid[1]
+1551308:PAP:Manual Space Value[430], Sid[1]
+1551308:PAP:Tray1 Space Time[2421]
+1551308:PAP:Manual Space Time[2594]
+1551308:PAP:Duplex Space Time[2165]
+1551322:PAP:Transfer Enable Sid[1]
+1551322:IMG:Tsk_img Paper Trans Able
+1551322:LSU:Imaging Write Test Pattern Print Start
+1551322:IMG:Med Vsync On
+1551322:IMG:Med Trans Bias Idle Read Start
+1551322:IMG:Comp Trans Bias CL Read Start
+1551324:IMG:Med Gap OK
+1551324:IMG:Tsk_img Print Status:[0][1][1][1]
+1551328:IMG:Comp Bias[1] Read Value:416 416 406 
+1551328:IMG:Comp Bias[1] Read Avg:416
+1551328:IMG:Comp Trans Bias CL Read Finish
+1551336:PAP:Sn[2] Value[1]
+1551336:PAP:SN Fro On
+1551340:LSU:Test Pattern Write Start
+1551350:LSU:Test Pattern Write Stop
+1551390:LSU:Test Pattern Write Start
+1551400:LSU:Test Pattern Write Stop
+1551440:LSU:Test Pattern Write Start
+1551450:LSU:Test Pattern Write Stop
+1551490:LSU:Test Pattern Write Start
+1551500:LSU:Test Pattern Write Stop
+1551540:LSU:Test Pattern Write Start
+1551550:LSU:Test Pattern Write Stop
+1551576:IMG:Med Trans Bias Head Read Start
+1551576:IMG:Comp Trans Bias DET Read Start
+1551590:LSU:Test Pattern Write Start
+1551594:PAP:Fuser Pass, Sid[0]
+1551594:CMD:Manual Print Unavailable Not Used Currently!
+1551594:FUS:Sheet(0) Fuser Pass!! C_Temp = 184 Tar_Temp = 180
+1551594:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+1551594:FUS:Sheet(1) Print Target Temp = 180 
+1551600:IMG:Comp Bias[2] Read Value:389 418 384 349 334 303 286 309 324 332 
+1551600:IMG:Comp Bias[2] Read Value:353 392 
+1551600:IMG:Comp Bias[2] Read Avg:346
+1551600:IMG:Comp Trans Bias DET Read Finish
+1551600:IMG:Med Exchange Imaging Bias
+1551600:LSU:Test Pattern Write Stop
+1551600:IMG:Comp Trans Bias Step[1]:[833]
+1551600:DEV:Trans Abs Voltage Value 833
+1551600:DEV:Trans Duty = 3093
+1551600:IMG:Comp Trans Bias Target:[1500]
+1551604:IMG:Comp Trans Bias Step[2]:[1166]
+1551604:DEV:Trans Abs Voltage Value 1166
+1551604:DEV:Trans Duty = 3661
+1551608:IMG:Comp Trans Bias Step[0]:[1500]
+1551608:DEV:Trans Abs Voltage Value 1500
+1551608:DEV:Trans Duty = 4230
+1551640:LSU:Test Pattern Write Start
+1551650:LSU:Test Pattern Write Stop
+1551690:LSU:Test Pattern Write Start
+1551700:LSU:Test Pattern Write Stop
+1551740:LSU:Test Pattern Write Start
+1551750:LSU:Test Pattern Write Stop
+1551790:LSU:Test Pattern Write Start
+1551800:LSU:Test Pattern Write Stop
+1551840:LSU:Test Pattern Write Start
+1551850:LSU:Test Pattern Write Stop
+1551874:PAP:Main Exit Finish Sid[0]
+1551874:FUS:Sheet(0) Exit Sensor Off!! C_Temp = 184 
+1551874:IMG:Med Paper Exit[0]
+1551874:PMNG:Exit Paper Not Used Currently!
+1551874:PMNG:Dummy Print Page Complete Counter 1
+1551874:PMNG:Sheet Complete(0)
+1551874:PMNG:Main Motor Status 1
+1551876:PMNG:Fuser Motor Status 0
+1551876:PMNG:Paper Finish(0)
+1551876:IMG:Med Imaging Complete[0]
+1551876:PAP:##Paper Complete!! Sid[0]
+1551890:LSU:Test Pattern Write Start
+1551900:LSU:Test Pattern Write Stop
+1551940:LSU:Test Pattern Write Start
+1551950:LSU:Test Pattern Write Stop
+1551990:LSU:Test Pattern Write Start
+1552000:LSU:Test Pattern Write Stop
+1552040:LSU:Test Pattern Write Start
+1552044:PAP:Fuser Entry Reach Sid[1]
+1552044:FUS:Sheet(1) Fuser In!! C_Temp = 184 Tar_Temp = 180
+1552050:LSU:Test Pattern Write Stop
+1552090:LSU:Test Pattern Write Start
+1552100:LSU:Test Pattern Write Stop
+1552140:LSU:Test Pattern Write Start
+1552150:LSU:Test Pattern Write Stop
+1552190:LSU:Test Pattern Write Start
+1552200:LSU:Test Pattern Write Stop
+1552240:LSU:Test Pattern Write Start
+1552250:LSU:Test Pattern Write Stop
+1552290:LSU:Test Pattern Write Start
+1552300:LSU:Test Pattern Write Stop
+1552340:LSU:Test Pattern Write Start
+1552350:LSU:Test Pattern Write Stop
+1552390:LSU:Test Pattern Write Start
+1552400:LSU:Test Pattern Write Stop
+1552440:LSU:Test Pattern Write Start
+1552450:LSU:Test Pattern Write Stop
+1552490:LSU:Test Pattern Write Start
+1552500:LSU:Test Pattern Write Stop
+1552540:LSU:Test Pattern Write Start
+1552550:LSU:Test Pattern Write Stop
+1552590:LSU:Test Pattern Write Start
+1552600:LSU:Test Pattern Write Stop
+1552640:LSU:Test Pattern Write Start
+1552650:LSU:Test Pattern Write Stop
+1552690:LSU:Test Pattern Write Start
+1552700:LSU:Test Pattern Write Stop
+1552740:LSU:Test Pattern Write Start
+1552750:LSU:Test Pattern Write Stop
+1552790:LSU:Test Pattern Write Start
+1552800:LSU:Test Pattern Write Stop
+1552840:LSU:Test Pattern Write Start
+1552850:LSU:Test Pattern Write Stop
+1552890:LSU:Test Pattern Write Start
+1552900:LSU:Test Pattern Write Stop
+1552940:LSU:Test Pattern Write Start
+1552950:LSU:Test Pattern Write Stop
+1552990:LSU:Test Pattern Write Start
+1553000:LSU:Test Pattern Write Stop
+1553040:LSU:Test Pattern Write Start
+1553050:LSU:Test Pattern Write Stop
+1553090:LSU:Test Pattern Write Start
+1553100:LSU:Test Pattern Write Stop
+1553140:LSU:Test Pattern Write Start
+1553150:LSU:Test Pattern Write Stop
+1553190:LSU:Test Pattern Write Start
+1553200:LSU:Test Pattern Write Stop
+1553240:LSU:Test Pattern Write Start
+1553250:LSU:Test Pattern Write Stop
+1553290:LSU:Test Pattern Write Start
+1553300:LSU:Test Pattern Write Stop
+1553340:LSU:Test Pattern Write Start
+1553350:LSU:Test Pattern Write Stop
+1553384:PAP:Unmask SN Fro Off
+1553390:LSU:Test Pattern Write Start
+1553400:LSU:Test Pattern Write Stop
+1553440:LSU:Test Pattern Write Start
+1553450:LSU:Test Pattern Write Stop
+1553474:PAP:Feed Space Release, Kind[2]
+1553490:LSU:Test Pattern Write Start
+1553500:LSU:Test Pattern Write Stop
+1553540:LSU:Test Pattern Write Start
+1553550:LSU:Test Pattern Write Stop
+1553590:LSU:Test Pattern Write Start
+1553600:LSU:Test Pattern Write Stop
+1553640:LSU:Test Pattern Write Start
+1553650:LSU:Test Pattern Write Stop
+1553680:LSU:Imaging Write Stop
+1553680:IMG:Med Vsync Off
+1553680:IMG:Tsk_img Write Param Set ID:2
+1553680:LSU:Imaging Param Start
+1553680:LSU:Imaging Param End
+1553680:IMG:Tsk_img Print Status:[1][1][1][1]
+1553680:PAP:*Image Regist Ready, Sid[2] *
+1553730:PAP:Feed Space Release, Kind[0]
+1553730:DEV:Standard Feed Solenoid On
+1553730:PAP:SOL Tray1 [1] Cnt[1]
+1553730:PAP:Feed Start, Sid[2] Fid[0]
+1553730:PAP:Subscan[5] Factory[0] User[0]
+1553730:PAP:Trans[15], Subscan[5], Sid[2]
+1553732:PMNG:Feed Paper(2)
+1553732:IMG:Med Feed Ok[2]
+1553732:PMNG:Sheet Execute Start(0)
+1553732:PMNG:id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0 
+1553732:PMNG:dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1 
+1553732:PMNG:silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0 
+1553732:PMNG:Request Image Start(0)
+1553732:PMNG:Request Paper Start(0)
+1553732:PMNG:Print Image Prepare OK By Engine Itself(0)
+1553734:FUS:Sheet(0) Added To Fuser Sheet Queue
+1553734:IMG:Med Print Start[0]
+1553734:IMG:Med Image Print Data Ready[0]
+1553734:PAP:Print Cnt[4], Sid[0]
+1553734:PAP:Bending[0] Sid[0]
+1553734:PAP:Env Kind[0], Sid[0]
+1553734:PAP:##Paper Start!! Sid[0]
+1553734:PAP:*Dc Data Ready, Sid[0] *
+1553734:PAP:Unmask SN Fro On
+1553736:PMNG:Fuser Motor Rotate(0)
+1553736:PMNG:Fuser Print Enable(0)
+1553736:IMG:Tsk_img Print Status:[0][0][1][1]
+1553736:PAP:Tsk Start! Sid[0]
+1553736:PAP:Fuser Temp Check[0] Sid[0]
+1553736:IMG:Med Fuser Ok
+1553736:PAP:*Fuser Temp Ready, Sid[0] *
+1553738:PAP:Dc Data Check[1] Sid[0]
+1553738:PAP:Feed Space Check[0] Sid[0]
+1553884:DEV:Standard Feed Solenoid Off
+1553884:PAP:SOL Tray1 [0] Cnt[0]
+1554096:PAP:Sn[2] Value[0]
+1554096:PAP:SN Fro Off
+1554096:PAP:+++Size[3427],Serr[2670],Lerr[3270],Sid[1]+++
+1554096:PMNG:Cancel Sheet:Miss Print
+1554096:PMNG:Miss Print Sid(1)--(Paper Size Error)
+1554096:FUS:Process Cancel Message From PMNG
+1554096:PMNG:Cancel Exec Sid = (0)
+1554098:IMG:Med Front Sensor Off[1]
+1554098:IMG:Med Paper End[0]
+1554098:PAP:Cancel Start!! Sid[0]Wait[0]Rear[0]
+1554098:IMG:Med Imaging Sheet[0] Cancel
+1554098:IMG:Med Imaging Print Finish
+1554100:PMNG:Image Finish(0)
+1554100:PMNG:Sheet Complete(0)
+1554100:PMNG:Main Motor Status 1
+1554100:PMNG:Fuser Motor Status 0
+1554100:PMNG:Paper Finish(0)
+1554100:IMG:Med Imaging Complete[0]
+1554100:PAP:##Paper Complete!! Sid[0]
+1554112:PAP:Int SN Fro On
+1554114:PAP:Feed Retry Stop Tid[0]
+1554114:IMG:Med Front Sensor On[2]
+1554114:FUS:Sheet(2) Front Sensor On!! C_Temp = 178 Tar_Temp = 180
+1554114:FUS:Regist Restart Note From Paper
+1554114:PAP:Space Set Start,Sid[2]
+1554114:PAP:Feed Space Offset Value[560] Sid[2]
+1554114:PAP:Real[386] Logic[317]
+1554114:PAP:OffsetT[69] SpaceT[2472] Sid[2]
+1554114:PAP:Tray1 Space Value[560], Sid[2]
+1554114:PAP:Manual Space Value[430], Sid[2]
+1554114:PAP:Tray1 Space Time[2403]
+1554114:PAP:Manual Space Time[2594]
+1554114:PAP:Duplex Space Time[2165]
+1554128:PAP:Transfer Enable Sid[2]
+1554128:IMG:Tsk_img Paper Trans Able
+1554128:LSU:Imaging Write Test Pattern Print Start
+1554128:IMG:Med Vsync On
+1554128:IMG:Med Trans Bias Idle Read Start
+1554128:IMG:Comp Trans Bias CL Read Start
+1554134:IMG:Comp Bias[1] Read Value:1070 1070 1040 
+1554134:IMG:Comp Bias[1] Read Avg:1070
+1554134:IMG:Comp Trans Bias CL Read Finish
+1554136:PAP:Sn[2] Value[1]
+1554136:PAP:SN Fro On
+1554136:IMG:Med Paper LD Pass
+1554140:LSU:Test Pattern Write Start
+1554150:LSU:Test Pattern Write Stop
+1554190:LSU:Test Pattern Write Start
+1554200:LSU:Test Pattern Write Stop
+1554240:LSU:Test Pattern Write Start
+1554250:LSU:Test Pattern Write Stop
+1554290:LSU:Test Pattern Write Start
+1554300:LSU:Test Pattern Write Stop
+1554340:LSU:Test Pattern Write Start
+1554350:LSU:Test Pattern Write Stop
+1554358:IMG:Med Exchange Imaging Bias(Tail)
+1554358:DEV:Trans Abs Voltage Value 500
+1554358:DEV:Trans Duty = 2525
+1554358:IMG:Comp Trans Bias Target:[500]
+1554358:IMG:Med Finish Check[1]
+1554358:IMG:Med Imaging Print Finish
+1554358:PMNG:Image Finish(1)
+1554382:IMG:Med Trans Bias Head Read Start
+1554382:IMG:Comp Trans Bias DET Read Start
+1554386:IMG:Med Paper Trans Pass
+1554390:LSU:Test Pattern Write Start
+1554400:LSU:Test Pattern Write Stop
+1554406:IMG:Comp Bias[2] Read Value:316 312 312 269 274 297 335 381 381 380 
+1554406:IMG:Comp Bias[2] Read Value:397 363 
+1554406:IMG:Comp Bias[2] Read Avg:335
+1554406:IMG:Comp Trans Bias DET Read Finish
+1554406:IMG:Med Exchange Imaging Bias
+1554406:IMG:Comp Trans Bias Step[1]:[833]
+1554406:DEV:Trans Abs Voltage Value 833
+1554406:DEV:Trans Duty = 3093
+1554408:IMG:Comp Trans Bias Target:[1500]
+1554410:IMG:Comp Trans Bias Step[2]:[1166]
+1554410:DEV:Trans Abs Voltage Value 1166
+1554410:DEV:Trans Duty = 3661
+1554414:IMG:Comp Trans Bias Step[0]:[1500]
+1554414:DEV:Trans Abs Voltage Value 1500
+1554414:DEV:Trans Duty = 4230
+1554440:LSU:Test Pattern Write Start
+1554450:LSU:Test Pattern Write Stop
+1554490:LSU:Test Pattern Write Start
+1554500:LSU:Test Pattern Write Stop
+1554540:LSU:Test Pattern Write Start
+1554550:LSU:Test Pattern Write Stop
+1554590:LSU:Test Pattern Write Start
+1554600:LSU:Test Pattern Write Stop
+1554640:LSU:Test Pattern Write Start
+1554650:LSU:Test Pattern Write Stop
+1554690:LSU:Test Pattern Write Start
+1554700:LSU:Test Pattern Write Stop
+1554740:LSU:Test Pattern Write Start
+1554750:LSU:Test Pattern Write Stop
+1554790:LSU:Test Pattern Write Start
+1554800:LSU:Test Pattern Write Stop
+1554824:PAP:Fuser Pass, Sid[1]
+1554824:CMD:Manual Print Unavailable Not Used Currently!
+1554824:FUS:Sheet(1) Fuser Pass!! C_Temp = 176 Tar_Temp = 180
+1554824:FUS:Normal Paper/FrontPage/Code(5)/Dir(SEF)/Width(2100 mm)/Speed(Normal)
+1554824:FUS:Sheet(2) Print Target Temp = 180 
+1554840:LSU:Test Pattern Write Start
+1554850:LSU:Test Pattern Write Stop
+1554854:PAP:Fuser Entry Reach Sid[2]
+1554854:FUS:Sheet(2) Fuser In!! C_Temp = 176 Tar_Temp = 180
+1554890:LSU:Test Pattern Write Start
+1554900:LSU:Test Pattern Write Stop
+1554940:LSU:Test Pattern Write Start
+1554950:LSU:Test Pattern Write Stop
+1554990:LSU:Test Pattern Write Start
+1555000:LSU:Test Pattern Write Stop
+1555040:LSU:Test Pattern Write Start
+1555050:LSU:Test Pattern Write Stop
+1555090:LSU:Test Pattern Write Start
+1555100:LSU:Test Pattern Write Stop
+1555104:PAP:Main Exit Finish Sid[1]
+1555104:FUS:Sheet(1) Exit Sensor Off!! C_Temp = 176 
+1555104:IMG:Med Paper Exit[1]
+1555104:PMNG:Exit Paper Not Used Currently!
+1555104:PMNG:Dummy Print Page Complete Counter 2
+1555104:PMNG:Sheet Complete(1)
+1555106:PMNG:Main Motor Status 1
+1555106:PMNG:Fuser Motor Status 0
+1555106:PMNG:Paper Finish(1)
+1555106:IMG:Med Imaging Complete[1]
+1555106:PAP:##Paper Complete!! Sid[1]
+1555140:LSU:Test Pattern Write Start
+1555150:LSU:Test Pattern Write Stop
+1555190:LSU:Test Pattern Write Start
+1555200:LSU:Test Pattern Write Stop
+1555240:LSU:Test Pattern Write Start
+1555250:LSU:Test Pattern Write Stop
+1555290:LSU:Test Pattern Write Start
+1555300:LSU:Test Pattern Write Stop
+1555340:LSU:Test Pattern Write Start
+1555350:LSU:Test Pattern Write Stop
+1555390:LSU:Test Pattern Write Start
+1555400:LSU:Test Pattern Write Stop
+1555440:LSU:Test Pattern Write Start
+1555450:LSU:Test Pattern Write Stop
+1555490:LSU:Test Pattern Write Start
+1555500:LSU:Test Pattern Write Stop
+1555540:LSU:Test Pattern Write Start
+1555550:LSU:Test Pattern Write Stop
+1555590:LSU:Test Pattern Write Start
+1555600:LSU:Test Pattern Write Stop
+1555640:LSU:Test Pattern Write Start
+1555650:LSU:Test Pattern Write Stop
+1555690:LSU:Test Pattern Write Start
+1555700:LSU:Test Pattern Write Stop
+1555740:LSU:Test Pattern Write Start
+1555750:LSU:Test Pattern Write Stop
+1555790:LSU:Test Pattern Write Start
+1555800:LSU:Test Pattern Write Stop
+1555840:LSU:Test Pattern Write Start
+1555850:LSU:Test Pattern Write Stop
+1555890:LSU:Test Pattern Write Start
+1555900:LSU:Test Pattern Write Stop
+1555940:LSU:Test Pattern Write Start
+1555950:LSU:Test Pattern Write Stop
+1555990:LSU:Test Pattern Write Start
+1556000:LSU:Test Pattern Write Stop
+1556040:LSU:Test Pattern Write Start
+1556050:LSU:Test Pattern Write Stop
+1556090:LSU:Test Pattern Write Start
+1556100:LSU:Test Pattern Write Stop
+1556140:LSU:Test Pattern Write Start
+1556150:LSU:Test Pattern Write Stop
+1556190:LSU:Test Pattern Write Start
+1556194:PAP:Unmask SN Fro Off
+1556200:LSU:Test Pattern Write Stop
+1556240:LSU:Test Pattern Write Start
+1556250:LSU:Test Pattern Write Stop
+1556282:PAP:Feed Space Release, Kind[2]
+1556290:LSU:Test Pattern Write Start
+1556300:LSU:Test Pattern Write Stop
+1556340:LSU:Test Pattern Write Start
+1556350:LSU:Test Pattern Write Stop
+1556390:LSU:Test Pattern Write Start
+1556400:LSU:Test Pattern Write Stop
+1556440:LSU:Test Pattern Write Start
+1556450:LSU:Test Pattern Write Stop
+1556480:LSU:Imaging Write Stop
+1556480:IMG:Med Vsync Off
+1556520:PAP:Feed Space Release, Kind[0]
+1556556:PAP:Sn[2] Value[0]
+1556556:PAP:SN Fro Off
+1556556:PAP:+++Size[2989],Serr[2670],Lerr[3270],Sid[2]+++
+1556556:IMG:Med Front Sensor Off[2]
+1556594:IMG:Med Paper LD Pass
+1556712:PAP:Feed Space Release, Kind[1]
+1556816:IMG:Med Exchange Imaging Bias(Tail)
+1556816:DEV:Trans Abs Voltage Value 500
+1556816:DEV:Trans Duty = 2525
+1556816:IMG:Comp Trans Bias Target:[500]
+1556816:IMG:Med Finish Check[2]
+1556816:IMG:Channel Print Finish
+1556816:IMG:Proc Print Finish
+1556816:IMG:Med Imaging Print Finish
+1556818:PMNG:Image Finish(2)
+1556844:IMG:Med Paper Trans Pass
+1557284:PAP:Fuser Pass, Sid[2]
+1557284:CMD:Manual Print Unavailable Not Used Currently!
+1557284:STS:Manual Tray Remain Enable
+1557284:FUS:Sheet(2) Fuser Pass!! C_Temp = 180 Tar_Temp = 180
+1557284:FUS:Mode Change!! C_Temp = 180 )
+1557284:FUS:Print / Print -> Standby / PrintAfter
+1557284:FUS:Print After Tar_Temp = 180
+1557564:PAP:Main Exit Finish Sid[2]
+1557564:FUS:Sheet(2) Exit Sensor Off!! C_Temp = 181 
+1557564:FUS:All Fuser Sheet Print Finish
+1557564:IMG:Med Paper Exit[2]
+1557564:IMG:Channel Info Paper Exit
+1557564:IMG:Comp Trans Bias Target:[-1000]
+1557564:DEV:THV Voltage Off
+1557564:IMG:Comp Trans Bias Enable On
+1557564:PMNG:Exit Paper Not Used Currently!
+1557566:PMNG:Dummy Print Page Complete Counter 3
+1557566:PMNG:Sheet Complete(2)
+1557566:PMNG:Main Motor Status 1
+1557566:PMNG:Fuser Motor Status 0
+1557566:PMNG:Paper Finish(2)
+1557566:IMG:Med Imaging Complete[2]
+1557566:PAP:##Paper Complete!! Sid[2]
+1557566:PAP:Paper Dev Stop Normal
+1558066:DEV:StepMotor Clock Off
+1558066:LSU:Ld Off
+1558066:IMG:Comp Trans Bias Off
+1558066:IMG:Comp Trans Bias Enable OFF
+1558066:IMG:Comp Charge Bias Off
+1558066:DEV:Charge Voltage Off
+1558066:IMG:Comp Develop Dc Bias Off
+1558066:DEV:Develop Voltage Off
+1558066:IMG:Channel Print End
+1558066:IMG:Med Ntf Mechanism Stop
+1558066:STS:Under 60s: Drive Counter[1318][0][10420]
+1558066:PAP:Main Mt Drive[0], Speed[3]
+1558068:PMNG:Main Motor Status 0
+1558068:PMNG:Fuser Motor Status 0
+1558068:PMNG:Paper Fail Safe
+1558068:PMNG:Notify Status Test Print Finish(False)
+1558068:PMNG:Image Actuator Stop
+1558068:IMG:Comp Polygon Off
+1558068:LSU:Polygon Off
+1558068:PAP:Paper Dev Stop Force
+1558068:STS:Print Finish!! Job Count[3]
+1558068:STS:Stop Enable Change[1]
+1558068:STS:Main->Ready,Sub->None
+1558068:STS:Safe Protect Timer Start = 28800000
+1558068:FUS:Engine Print Finish Message From PMNG!!
+1558070:FUS:Print Finish Note For Fan
+1558070:FUS:Plotter Status To Standby
+1558070:CMD:Print Complete!
+1558070:DEV:Step Motor Hold Off
+1558070:LSU:Polygon Enable Off
+1558080:LSU:Polygon Clk Off
+1558120:LSU:Polygon Lock Off
+1558294:FUS:Mode Change!! C_Temp = 182 )
+1558294:FUS:Standby / PrintAfter -> Standby / Standby
+1558294:FUS:Standby Tar_Temp = 150
