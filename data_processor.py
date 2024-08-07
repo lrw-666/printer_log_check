@@ -5,24 +5,24 @@ from printer_data import PrinterData
 
 class DataProcessor:
 
-    # 初始化Log信息
     def __init__(self, file_path, printer_data, n_lines=1000):
+        """初始化Log信息"""
         self.file_path = file_path
         self.parsed_massege = {} # 存储各页信息
         self.printer_data = printer_data # 打印机配置信息
         self.lines = self.get_last_n_lines(n_lines) # 读取文件最后n行,并分割文本
         self.pap_logs = self.split_PAP_lines() # 获取纸搬送信息,传参时，这里可能无法传递所有log信息
 
-    # 获取文件最后n行
     def get_last_n_lines(self, n):
+        """获取文件最后n行"""
         with open(self.file_path, 'r') as file:
             # 使用collections.deque实现双端队列，从右边添加元素，从左边弹出元素，存储最后n行
             lines = collections.deque(file, n)
             # 返回解析后列表
             return list(lines)
 
-    # 利用正则表达式分割搬送文本，并提取sheet信息
     def split_PAP_lines(self):
+        """利用正则表达式分割搬送文本,并提取sheet信息"""
         # Define the regex pattern
         regex = r'^(\d+):([a-zA-Z ]+):(.+)$' # 每一行必须以数字开头，然后是一个冒号，接着是一个或多个字母或空格，再一个冒号，最后是任意字符
         # Define the regex pattern
@@ -74,21 +74,21 @@ class DataProcessor:
         # Return parsed lines
         return parsed_lines
 
-    # 字符串转数字
     def str_to_num(self, s):
+        """字符串转数字"""
         try:
             return int(s)   # python3中int()函数可以直接处理字符串,且不会溢出
         except ValueError:
             return float(s)
 
-    # 将解析后的列表转换为DataFrame
     def to_dataframe(self, parsed_lines):
+        """将解析后的列表转换为DataFrame"""
         # Convert parsed lines to DataFrame
         df = pd.DataFrame(parsed_lines, columns=['Number', 'Module', 'Text'])
         return df
 
-    # 将DataFrame转换为list
     def to_list(self, df):
+        """将DataFrame转换为list"""
         return df.values.tolist()
 
 # 示例使用

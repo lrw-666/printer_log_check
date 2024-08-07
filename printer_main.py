@@ -13,7 +13,7 @@ def main():
     # 获取配置文件json对象
     printer_data = PrinterData(json_path)
     # 读取n行log文件，并进行初步处理——筛选出打印管理的纸sheet数据与纸搬送log
-    data_processor = DataProcessor(printer_data.file_path, printer_data, 1000)
+    data_processor = DataProcessor(printer_data.file_path, printer_data, printer_data.parse_line_num)
     # 建立纸管理对象，并将纸数据导入，动态生成纸对象
     paper_controller = PaperController(printer_data, data_processor)
     paper_controller.add_paper()

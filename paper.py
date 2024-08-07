@@ -23,7 +23,7 @@ class Paper:
         return f"Paper(id={self.id}, speed={self.speed}, ftray={self.ftray}, etray={self.etray}, length={self.length},\
           width={self.width}, thickness={self.thickness}, subscan={self.subscan}, trans={self.trans}, page={self.page_num},\
           tray1_space={self.tray1_space}, manual_space={self.manual_space}, tray1_release_time={self.tray1_release_time},\
-          manual_release_time={self.manual_release_time}, trajectory_map={self.trajectory_map}, actual_length={self.actual_length},\
+          manual_release_time={self.manual_release_time}, actual_length={self.actual_length}, trajectory_map={self.trajectory_map},\
           normal_logs={self.normal_logs}, abnormal_logs={self.abnormal_logs})"
 
 # 示例

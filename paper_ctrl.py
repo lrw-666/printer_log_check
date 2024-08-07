@@ -4,6 +4,7 @@ from printer_data import PrinterData  # 导入PrinterData类
 from data_processor import DataProcessor
 
 class PaperController:
+
     def __init__(self, printer_data=None, data_processor=None):
         self.papers = []  # 存储所有纸张对象
         self.paper_count = 0  # 纸张数量

@@ -12,6 +12,7 @@ class PrinterData:
             self.version = data.get('version', 'Unknown')
             self.file_path = data.get('file_path', 'Unknown')
             self.excel_path = data.get('excel_path', 'Unknown')
+            self.parse_line_num = data.get('parse_line_num', 0)
             self.paper_info = data.get('paper_info', {})
             self.single_logs = data.get('single_logs', {})
             self.jam_logs = data.get('jam_logs', {})
@@ -33,6 +34,7 @@ class PrinterData:
         print(f"Version: {self.version}")
         print(f"File path: {self.file_path}")
         print(f"Excel path: {self.excel_path}")
+        print(f"Parse line number: {self.parse_line_num}")
 
     def display_paper_info(self):
         print("\nPaper Info:")

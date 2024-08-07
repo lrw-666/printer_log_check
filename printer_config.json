@@ -3,6 +3,7 @@
     "version": "1.0",
     "file_path": "d:/MyProject/printer_check/printer_log.txt",
     "excel_path": "C:/Users/PANTUM/Desktop/log_parsed.xlsx",
+    "parse_line_num": 1000,
     "paper_info": {
         "key_node_number": 4,
         "1": "Sheet Execute Start",
