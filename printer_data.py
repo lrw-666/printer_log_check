@@ -3,13 +3,15 @@ import json
 class PrinterData:
     def __init__(self, json_file):
         try:
+            # 读取JSON文件
             with open(json_file, 'r', encoding='utf-8') as file:
                 data = json.load(file)
-            
-            print("JSON Data:", data)  # 调试信息：打印解析后的JSON数据
-            
+
+            # 获取JSON数据
             self.printer_name = data.get('printer_name', 'Unknown')
             self.version = data.get('version', 'Unknown')
+            self.file_path = data.get('file_path', 'Unknown')
+            self.excel_path = data.get('excel_path', 'Unknown')
             self.paper_info = data.get('paper_info', {})
             self.single_logs = data.get('single_logs', {})
             self.jam_logs = data.get('jam_logs', {})
@@ -17,6 +19,7 @@ class PrinterData:
             self.normal_speed = data.get('nomral_speed', {})
             self.middle_speed = data.get('middle_speed', {})
             self.slow_speed = data.get('slow_speed', {})
+            self.check_point_logs = data.get('check_point_logs', {})
         except FileNotFoundError:
             print(f"Error: File {json_file} not found.")
         except json.JSONDecodeError:
@@ -24,9 +27,12 @@ class PrinterData:
         except KeyError as e:
             print(f"Error: Key {e} not found in JSON file.")
 
+    # 打印信息
     def display_info(self):
         print(f"Printer Name: {self.printer_name}")
         print(f"Version: {self.version}")
+        print(f"File path: {self.file_path}")
+        print(f"Excel path: {self.excel_path}")
 
     def display_paper_info(self):
         print("\nPaper Info:")
@@ -36,6 +42,10 @@ class PrinterData:
     def display_single_logs(self):
         print("\nSingle Logs:")
         for key, value in self.single_logs.items():
+            print(f"{key}: {value}")
+
+        print("\nCheck Point Logs:")
+        for key, value in self.check_point_logs.items():
             print(f"{key}: {value}")
 
     def display_jam_logs(self):

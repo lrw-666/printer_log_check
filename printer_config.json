@@ -1,79 +1,176 @@
 {
     "printer_name": "Lp2122",
     "version": "1.0",
+    "file_path": "d:/MyProject/printer_check/printer_log.txt",
+    "excel_path": "C:/Users/PANTUM/Desktop/log_parsed.xlsx",
     "paper_info": {
-        "key_node_number" : 4,
-        "1" : "Sheet Execute Start",
-        "2" : "id:0 speed:0 ftray:0 etray:0 otray:0 job_color:0",
-        "3" : "dir:1 code:5 length:2970 width:2100 kind:0 thick:1 s_error:1",
-        "4" : "silent:0 density:2 m_dpi:3 s_dpi:3 image_lvl:0 quality:0"
+        "key_node_number": 4,
+        "1": "Sheet Execute Start",
+        "2": "id:(\\d+) speed:(\\d+) ftray:(\\d+) etray:(\\d+) otray:(\\d+) job_color:(\\d+)",
+        "3": "dir:(\\d+) code:(\\d+) length:(\\d+) width:(\\d+) kind:(\\d+) thick:(\\d+) s_error:(\\d+)",
+        "4": "silent:(\\d+) density:(\\d+) m_dpi:(\\d+) s_dpi:(\\d+) image_lvl:(\\d+) quality:(\\d+)"
     },
-    "single_logs" :{
-        "key_node_number" : 23,
-        "1" : "Print Cnt[1], Sid[0]",
-        "2" : "Feed Start, Sid[0] Fid[0]",
-        "3" : "Subscan[5] Factory[0] User[0]",
-        "4" : "Trans[15], Subscan[5], Sid[0]",
-        "5" : "Unmask SN Fro On",
-        "6" : "Int SN Fro On",
-        "7" : "Feed Space Offset Value[560] Sid[0]",
-        "8" : "Real[258] Logic[317]",
-        "9" : "OffsetT[100] SpaceT[2472] Sid[0]",
-        "10" : "Tray1 Space Value[560], Sid[0]",
-        "11" : "Manual Space Value[430], Sid[0]",
-        "12" : "Tray1 Space Time[2372]",
-        "13" : "Manual Space Time[2594]",
-        "14" : "Transfer Enable Sid[0]",
-        "15" : "Fuser Entry Reach Sid[0]",
-        "16" : "Unmask SN Fro Off",
-        "17" : "Feed Space Release, Kind[2]",
-        "18" : "Feed Space Release, Kind[0]",
-        "19" : "SN Fro Off",
-        "20" : "+++Size[2976],Serr[2670],Lerr[3270],Sid[0]+++",
-        "21" : "Fuser Pass, Sid[0]",
-        "22" : "Main Exit Finish Sid[0]",
-        "23" : "##Paper Complete!! Sid[0]"
+    "single_logs": {
+        "key_node_number": 23,
+        "1": "Print Cnt\\[(\\d+)\\], Sid\\[(\\d+)\\]",
+        "2": "Feed Start, Sid\\[(\\d+)\\] Fid\\[(\\d+)\\]",
+        "3": "Subscan\\[(\\d+)\\] Factory\\[(\\d+)\\] User\\[(\\d+)\\]",
+        "4": "Trans\\[(\\d+)\\], Subscan\\[(\\d+)\\], Sid\\[(\\d+)\\]",
+        "5": "Unmask SN Fro On",
+        "6": "Int SN Fro On",
+        "7": "Feed Space Offset Value\\[(\\d+)\\] Sid\\[(\\d+)\\]",
+        "8": "Real\\[(\\d+)\\] Logic\\[(\\d+)\\]",
+        "9": "OffsetT\\[(\\d+)\\] SpaceT\\[(\\d+)\\] Sid\\[(\\d+)\\]",
+        "10": "Tray1 Space Value\\[(\\d+)\\], Sid\\[(\\d+)\\]",
+        "11": "Manual Space Value\\[(\\d+)\\], Sid\\[(\\d+)\\]",
+        "12": "Tray1 Space Time\\[(\\d+)\\]",
+        "13": "Manual Space Time\\[(\\d+)\\]",
+        "14": "Transfer Enable Sid\\[(\\d+)\\]",
+        "15": "Fuser Entry Reach Sid\\[(\\d+)\\]",
+        "16": "Unmask SN Fro Off",
+        "17": "Feed Space Release, Kind\\[(\\d+)\\]",
+        "18": "Feed Space Release, Kind\\[(\\d+)\\]",
+        "19": "SN Fro Off",
+        "20": "\\+\\+\\+Size\\[(\\d+)\\],Serr\\[(\\d+)\\],Lerr\\[(\\d+)\\],Sid\\[(\\d+)\\]\\+\\+\\+",
+        "21": "Fuser Pass, Sid\\[(\\d+)\\]",
+        "22": "Main Exit Finish Sid\\[(\\d+)\\]",
+        "23": "##Paper Complete!! Sid\\[(\\d+)\\]"
     },
-    "jam_logs" :{
-        "key_node_number" : 1,
-        "1" : "Jam Act Sid[2] Code[49]",
-        "2" : "Cancel Start!! Sid[0]Wait[0]Rear[0]"
+    "check_point_logs": {
+        "key_node_number": 7,
+        "page_num": 1,
+        "subscan": 3,
+        "trans": 4,
+        "tray1_space": 10,
+        "manual_space": 11,
+        "tray1_release_time": 12,
+        "manual_release_time": 13,
+        "actual_length": 20
+    },
+    "jam_logs": {
+        "key_node_number": 2,
+        "1": "Jam Act Sid\\[(\\d+)\\] Code\\[(\\d+)\\]",
+        "2": "Cancel Start!! Sid\\[(\\d+)\\]Wait\\[(\\d+)\\]Rear\\[(\\d+)\\]"
     },
     "speed_info": {
         "key_node_number" : 7,
         "1" : "FeedStart_To_FrontSensorOn",
         "2" : "FrontSensorOn_To_TransferEnable",
-        "3" : "FrontSensorOn_To_FrontSensorOff",    
+        "3" : "FrontSensorOn_To_FrontSensorOff",
         "4" : "FrontSensorON_To_FuserEntryReach",
         "5" : "FrontSensorOff_To_FuserPass",
         "6" : "FrontSensorOff_To_MainExitFinish",
         "7" : "FrontSensorOff_To_NextFeedStart"
     },
     "nomral_speed": {
-        "FeedStart_To_FrontSensorOn": 318,
-        "FrontSensorOn_To_TransferEnable": 16,
-        "FrontSensorOn_To_FrontSensorOff": 2440,
-        "FrontSensorON_To_FuserEntryReach": 738,
-        "FrontSensorOff_To_FuserPass": 1200,
-        "FrontSensorOff_To_MainExitFinish": 1008,
-        "FrontSensorOff_To_NextFeedStart": 1000
+        "FeedStart_To_FrontSensorOn": {
+            "Start":"2",
+            "End":"6",
+            "Value":318
+        },
+        "FrontSensorOn_To_TransferEnable": {
+            "Start":"6",
+            "End":"14",
+            "Value":16
+        },
+        "FrontSensorOn_To_FrontSensorOff": {
+            "Start":"6",
+            "End":"19",
+            "Value":2440
+        },
+        "FrontSensorON_To_FuserEntryReach": {
+            "Start":"6",
+            "End":"15",
+            "Value":738
+        },
+        "FrontSensorOff_To_FuserPass": {
+            "Start":"19",
+            "End":"21",
+            "Value":723
+        },
+        "FrontSensorOff_To_MainExitFinish": {
+            "Start":"19",
+            "End":"22",
+            "Value":1008
+        },
+        "FrontSensorOff_To_NextFeedStart": {
+            "Start":"6",
+            "End":"2",
+            "Value":2370
+        }
     },
     "middle_speed": {
-        "FeedStart_To_FrontSensorOn": 318,
-        "FrontSensorOn_To_TransferEnable": 16,
-        "FrontSensorOn_To_FrontSensorOff": 2440,
-        "FrontSensorON_To_FuserEntryReach": 738,
-        "FrontSensorOff_To_FuserPass": 1200,
-        "FrontSensorOff_To_MainExitFinish": 1008,
-        "FrontSensorOff_To_NextFeedStart": 1000
+        "FeedStart_To_FrontSensorOn": {
+            "Start":"2",
+            "End":"6",
+            "Value":318
+        },
+        "FrontSensorOn_To_TransferEnable": {
+            "Start":"6",
+            "End":"14",
+            "Value":16
+        },
+        "FrontSensorOn_To_FrontSensorOff": {
+            "Start":"6",
+            "End":"19",
+            "Value":2440
+        },
+        "FrontSensorON_To_FuserEntryReach": {
+            "Start":"6",
+            "End":"15",
+            "Value":738
+        },
+        "FrontSensorOff_To_FuserPass": {
+            "Start":"19",
+            "End":"21",
+            "Value":723
+        },
+        "FrontSensorOff_To_MainExitFinish": {
+            "Start":"19",
+            "End":"22",
+            "Value":1008
+        },
+        "FrontSensorOff_To_NextFeedStart": {
+            "Start":"6",
+            "End":"2",
+            "Value":2370
+        }
     },
     "slow_speed": {
-        "FeedStart_To_FrontSensorOn": 474,
-        "FrontSensorOn_To_TransferEnable": 25,
-        "FrontSensorOn_To_FrontSensorOff": 3841,
-        "FrontSensorON_To_FuserEntryReach": 1166,
-        "FrontSensorOff_To_FuserPass": 1166,
-        "FrontSensorOff_To_MainExitFinish": 1616,
-        "FrontSensorOff_To_NextFeedStart": 8089
+        "FeedStart_To_FrontSensorOn": {
+            "Start":"2",
+            "End":"6",
+            "Value":474
+        },
+        "FrontSensorOn_To_TransferEnable": {
+            "Start":"6",
+            "End":"14",
+            "Value":25
+        },
+        "FrontSensorOn_To_FrontSensorOff": {
+            "Start":"6",
+            "End":"19",
+            "Value":3841
+        },
+        "FrontSensorON_To_FuserEntryReach": {
+            "Start":"6",
+            "End":"15",
+            "Value":1166
+        },
+        "FrontSensorOff_To_FuserPass": {
+            "Start":"19",
+            "End":"21",
+            "Value":1166
+        },
+        "FrontSensorOff_To_MainExitFinish": {
+            "Start":"19",
+            "End":"22",
+            "Value":1616
+        },
+        "FrontSensorOff_To_NextFeedStart": {
+            "Start":"6",
+            "End":"2",
+            "Value":8089
+        }
     }
 }
