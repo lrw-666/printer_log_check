@@ -1,25 +1,25 @@
 # 这是一个为打印机引擎Log进行解析的脚本
-  输入：引擎的Log文件
-  输出：Excel表
-  输出内容分三部分：打印机下发的任务信息、搬送的Log、每张纸的解析信息
+  1. 输入：引擎的Log文件
+  2. 输出：Excel表
+  3. 输出内容分三部分：打印机下发的任务信息、搬送的Log、每张纸的解析信息
 
 # 开发与运行环境
-  语言：python 3.11.8
-  相关库版本：
-    numpy 2.0.1
-    openpyxl 3.1.5
-    pandas 2.2.2
-    XlsxWriter 3.2.0
+  1. 语言：python 3.11.8
+  2. 相关库版本：
+    - numpy 2.0.1
+    - openpyxl 3.1.5
+    - pandas 2.2.2
+    - XlsxWriter 3.2.0
 
 # 项目文件分析
-  paper.py  该文件定义纸对象，用于存放纸对象的基本属性、相关Log、数据解析结果
-  paper_ctrl.py  该文件用于动态生成纸对象，将解析后的数据存放到对应的纸对象中
-  data_processor.py  用于解析文本信息，读取指定行数的Log信息进行解析，提取纸任务数据
-  excel_com.py  Excel文本的操作类，用于将解析成功的纸数据输出到Excel表中
-  json_com.py  Json工具类，项目之处建立的，实际开发中发现直接做一个配置文件解析类更方便，此文件便搁置了
-  printer_config.json  该项目的配置信息，用于存放文件路径、需要匹配的字符串正则表达式等等
-  printer_data.py  Json配置文件解析类，将解析内容存放在一个对象中
-  printer_main.py  主函数，实现整体运行逻辑
+  1. paper.py  该文件定义纸对象，用于存放纸对象的基本属性、相关Log、数据解析结果
+  2. paper_ctrl.py  该文件用于动态生成纸对象，将解析后的数据存放到对应的纸对象中
+  3. data_processor.py  用于解析文本信息，读取指定行数的Log信息进行解析，提取纸任务数据
+  4. excel_com.py  Excel文本的操作类，用于将解析成功的纸数据输出到Excel表中
+  5. json_com.py  Json工具类，项目之处建立的，实际开发中发现直接做一个配置文件解析类更方便，此文件便搁置了
+  6. printer_config.json  该项目的配置信息，用于存放文件路径、需要匹配的字符串正则表达式等等
+  7. printer_data.py  Json配置文件解析类，将解析内容存放在一个对象中
+  8. printer_main.py  主函数，实现整体运行逻辑
 
 # 项目实现逻辑
   1. 提取配置信息，获取文件路径、提取Log行数等基本信息，建立配置对象
