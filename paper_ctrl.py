@@ -68,6 +68,9 @@ class PaperController:
                                 paper.manual_release_time = match.group(1)
                             case 20:
                                 paper.actual_length = match.group(1)
+                    elif i == 2:
+                        # 特殊处理，在feed_start之前的log全删
+                        self.dataProcessor.pap_logs.remove(log)
 
                     # 异常系log匹配
                     else:
